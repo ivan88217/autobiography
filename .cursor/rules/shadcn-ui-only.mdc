@@ -1,0 +1,68 @@
+---
+description: 
+globs: *.tsx
+alwaysApply: false
+---
+# shadcn/ui 元件庫規則
+
+## 前端 CSS 框架限制
+
+本專案**僅允許使用 shadcn/ui** 作為主要的 CSS 框架和元件庫。
+
+### 強制規則
+
+1. **主要元件庫**
+   - 必須使用 shadcn/ui 作為主要元件庫
+   - 禁止使用其他 UI 元件庫（如 Material-UI、Ant Design、Chakra UI 等）
+   - 除非有特別說明，否則不得引入其他元件庫
+
+2. **shadcn/ui 使用方式**
+   - 使用 `bunx shadcn@latest add <component>` 安裝元件
+   - 元件存放在 `components/ui/` 目錄
+   - 遵循 shadcn/ui 的設計系統和主題配置
+
+3. **檔案參考**
+   - 元件配置：[components.json](mdc:components.json)
+   - UI 元件目錄：[components/ui/](mdc:components/ui)
+   - 主要應用目錄：[app/](mdc:app)
+   - 自定義元件目錄：[components/](mdc:components)
+
+### 允許的例外情況
+
+- **基礎工具庫**：可以使用 Tailwind CSS（shadcn/ui 的基礎）
+- **圖標庫**：可以使用 Lucide React（shadcn/ui 推薦）
+- **動畫庫**：可以使用 Framer Motion（與 shadcn/ui 兼容）
+- **特殊需求**：經過明確說明的特殊功能元件
+
+### 開發指南
+
+```bash
+# 安裝 shadcn/ui 元件
+bunx shadcn@latest add button
+bunx shadcn@latest add card
+bunx shadcn@latest add input
+
+# 查看可用元件
+bunx shadcn@latest add
+```
+
+### 元件使用範例
+
+```tsx
+// 正確：使用 shadcn/ui 元件
+import { Button } from "@/components/ui/button"
+import { Card, CardContent, CardHeader } from "@/components/ui/card"
+
+// 錯誤：使用其他元件庫
+// import { Button } from "@mui/material"
+// import { Button } from "antd"
+```
+
+### 自定義元件規範
+
+- 基於 shadcn/ui 元件進行擴展
+- 保持與 shadcn/ui 設計系統的一致性
+- 使用 Tailwind CSS 進行樣式定制
+- 遵循 shadcn/ui 的命名慣例
+
+**重要提醒：保持設計系統的一致性是良好用戶體驗的關鍵。**

@@ -1,0 +1,56 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Bun 包管理器規則
+
+## 專案包管理器限制
+
+本專案**僅允許使用 Bun** 作為 Node.js 包管理器。
+
+### 強制規則
+
+1. **禁止使用其他包管理器**
+   - 不得使用 `npm`
+   - 不得使用 `yarn` 
+   - 不得使用 `pnpm`
+
+2. **必須使用 Bun 指令**
+   - 安裝依賴：`bun install`
+   - 新增套件：`bun add <package>`
+   - 移除套件：`bun remove <package>`
+   - 執行腳本：`bun run <script>`
+   - 開發模式：`bun dev`
+
+3. **檔案參考**
+   - 依賴管理檔案：[package.json](mdc:package.json)
+   - 鎖定檔案：[bun.lock](mdc:bun.lock)
+
+### 注意事項
+
+- 所有套件安裝和管理操作都必須透過 Bun 執行
+- 確保 `bun.lock` 檔案被提交到版本控制
+- 如果看到 `package-lock.json` 或 `yarn.lock` 檔案，應立即刪除
+- 在 CI/CD 環境中也必須使用 Bun
+
+### 範例指令
+
+```bash
+# 安裝所有依賴
+bun install
+
+# 新增開發依賴
+bun add -d typescript
+
+# 新增生產依賴  
+bun add react
+
+# 執行開發伺服器
+bun dev
+
+# 建置專案
+bun run build
+```
+
+**重要提醒：違反此規則將導致專案不一致性和潛在的依賴衝突問題。**
