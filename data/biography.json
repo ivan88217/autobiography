@@ -1,0 +1,308 @@
+{
+  "personal": {
+    "zh": {
+      "name": "施易男",
+      "title": "全端工程師",
+      "email": "ivan88217@gmail.com",
+      "phone": "+886-988622012",
+      "location": "台灣，台中",
+      "github": "https://github.com/ivan88217",
+      "summary": "身為一位充滿熱忱的全端工程師，我專精於探索前沿技術並將其應用於實際場景中。我的核心理念是「學以致用」——每當接觸新技術時，都會積極尋找實戰應用機會，深入了解其優勢與限制，並建立完整的技術評估框架，以便在未來專案中做出最適合的技術選擇。\n\n隨著職涯發展，我深刻體認到優秀的工程師不應局限於純技術領域，而需要具備跨領域整合能力。因此，我持續拓展知識邊界，從商業分析、用戶體驗到專案管理甚至是會計學等等，這些多元視角讓我能夠設計出更符合實際需求的解決方案。\n\n在AI革命的浪潮中，我積極響應AI帶來的變化並重新定義工作模式。從初期利用AI輔助解決開發難題，到導入GitHub Copilot實現AI協作開發，再到現在運用Cursor進行智能化程式設計，我逐漸將自己定位為「系統架構師」——專注於整體規劃、架構設計和技術決策，讓AI處理繁瑣的代碼實現，實現更高層次的價值創造，讓工程師不只是工程師。"
+    },
+    "en": {
+      "name": "Ivan Shih",
+      "title": "Full Stack Engineer",
+      "email": "ivan88217@gmail.com",
+      "phone": "+886-988622012",
+      "location": "Taichung, Taiwan",
+      "github": "https://github.com/ivan88217",
+      "summary": "As a passionate full-stack engineer, I specialize in exploring cutting-edge technologies and applying them to practical applications. My core philosophy is 'learning through application' — whenever I encounter new technologies, I actively seek practical implementation opportunities to understand their strengths and limitations, building a comprehensive technical evaluation framework for optimal technology selection in future projects.\n\nThroughout my career progression, I've recognized that exceptional engineers should not be confined to purely technical domains but must possess cross-disciplinary integration capabilities. Therefore, I continuously expand my knowledge boundaries, from business analysis and user experience to project management and even accounting, enabling me to design solutions that better meet actual requirements through these diverse perspectives.\n\nIn the wave of the AI revolution, I actively embrace the changes brought by AI and redefine my working paradigm. From initially using AI to assist with development challenges, to implementing GitHub Copilot for AI-collaborative development, and now utilizing Cursor for intelligent programming, I've gradually positioned myself as a 'system architect' — focusing on overall planning, architectural design, and technical decision-making while letting AI handle tedious code implementation, achieving higher-level value creation and making engineers more than just engineers."
+    }
+  },
+  "experience": {
+    "zh": [
+      {
+        "company": "敦謙國際智能股份有限公司",
+        "position": "後端工程師主任",
+        "period": "2022年9月 - 現在",
+        "description": "主導旅宿管理系統(PMS)核心開發與架構優化，負責OTA系統(Tourbobo)及會員制OTA系統(Reelax)後端API開發，並統籌會員中心系統功能開發",
+        "responsibilities": [
+          {
+            "title": "系統開發與架構設計",
+            "details": "主導旅宿管理系統核心功能開發，包含方案管理、動態售價公式、Channel Manager同步機制、智能超賣控制等關鍵業務模組，確保系統穩定性與擴展性。"
+          },
+          {
+            "title": "技術架構現代化",
+            "details": "成功將老舊單體架構遷移至微服務架構，在零停機時間的前提下完成技術棧升級，大幅提升系統性能與維護效率，實現公司數位轉型目標。"
+          },
+          {
+            "title": "維運管理與應急處理",
+            "details": "建立完善的系統監控機制，負責7x24小時輪值工作，包含系統健康檢查、定時任務維護、緊急事件快速響應，確保業務連續性。"
+          },
+          {
+            "title": "技術團隊領導",
+            "details": "規劃並執行團隊技術成長計畫，包含技術培訓課程設計、程式碼品質把關、技術發展路線制定。透過每週技術分享會，促進團隊知識交流與技能提升。"
+          },
+          {
+            "title": "部門營運管理",
+            "details": "統籌部門預算規劃與執行、各類審核流程管理、跨部門會議協調等行政職責，確保團隊運作效率與資源最佳化配置。"
+          },
+          {
+            "title": "創新技術推廣",
+            "details": "持續引入前沿技術解決方案，包含DDD領域驅動設計實踐、因應實時銷售率的自動價格調整演算法、智能開發工具應用等，提升團隊整體技術水準。"
+          },
+          {
+            "title": "產品需求分析與規劃",
+            "details": "主動協助產品經理進行需求澄清與功能設計，運用技術專業識別潛在風險點，提供多元化解決方案，確保產品交付品質與用戶體驗。"
+          },
+          {
+            "title": "跨部門協作推進",
+            "details": "建立高效的跨部門溝通機制，協調業務、產品、設計等團隊合作，確保專案進度與品質目標達成。"
+          },
+          {
+            "title": "維運效率優化",
+            "details": "開發智能化維運工具，將複雜的數據判斷流程視覺化，建置開發者專用管理系統，大幅減少人工操作時間，讓技術人員專注於核心開發工作。"
+          },
+          {
+            "title": "開發體驗提升",
+            "details": "建立統一的程式碼規範與架構標準，重構分散的重複代碼，建置共用組件庫，顯著提升程式碼可維護性與開發效率。"
+          }
+        ]
+      },
+      {
+        "company": "倪尚設計有限公司",
+        "position": "全端工程師",
+        "period": "2018年8月 - 2022年4月",
+        "description": "獨立負責第三方金流系統架構設計與開發、移動應用程式開發、企業形象官網建置與維護，涵蓋完整的軟體開發生命週期。",
+        "responsibilities": [
+          {
+            "title": "全棧系統設計與開發",
+            "details": "從需求分析到系統上線，獨立完成完整的軟體開發生命週期，包含系統架構設計、資料庫設計、前後端開發與測試部署。"
+          },
+          {
+            "title": "高併發金流系統優化",
+            "details": "針對高頻率金流API呼叫場景，設計並實施多層次效能優化策略，包含Redis分散式快取、資料庫水平分表、非同步緩衝寫入、批次處理機制等，顯著提升系統吞吐量。"
+          },
+          {
+            "title": "第三方API整合管理",
+            "details": "與多家金流廠商及合作夥伴進行技術對接，主動追蹤整合進度與資料同步狀況，建立完善的API監控與異常處理機制，確保系統穩定運行。"
+          },
+          {
+            "title": "DevOps基礎架設與維護",
+            "details": "因應團隊資源限制，承擔基礎設施管理職責，包含雲端伺服器配置、自動化部署流程建立、應用程式發佈與監控等維運工作。"
+          },
+          {
+            "title": "跨技術棧學習與實踐",
+            "details": "從後端工程師起步，主動學習移動應用開發與前端技術，在實戰中快速掌握多元技術棧，成功協助公司完成全方位產品開發需求，展現強大的學習適應能力。"
+          }
+        ]
+      }
+    ],
+    "en": [
+      {
+        "company": "DUNQIAN Smart Co., Ltd.",
+        "position": "Backend Engineer Supervisor",
+        "period": "Sep 2022 - Present",
+        "description": "Lead core development and architecture optimization of Property Management System (PMS), oversee OTA system (Tourbobo) and membership OTA system (Reelax) backend API development, and coordinate membership center system implementation",
+        "responsibilities": [
+          {
+            "title": "System Development & Architecture Design",
+            "details": "Lead core functionality development of hotel management system, including package management, dynamic pricing formulas, Channel Manager synchronization mechanisms, and intelligent overbooking control modules, ensuring system stability and scalability."
+          },
+          {
+            "title": "Technical Architecture Modernization",
+            "details": "Successfully migrated legacy monolithic architecture to microservices architecture with zero downtime, completed technology stack upgrades that significantly improved system performance and maintenance efficiency, achieving company digital transformation goals."
+          },
+          {
+            "title": "Operations Management & Emergency Response",
+            "details": "Established comprehensive system monitoring mechanisms, responsible for 7x24 on-call duties including system health checks, scheduled task maintenance, and rapid emergency response to ensure business continuity."
+          },
+          {
+            "title": "Technical Team Leadership",
+            "details": "Plan and execute team technical growth programs, including technical training course design, code quality control, and technical roadmap development. Foster knowledge sharing and skill enhancement through weekly technical sharing sessions."
+          },
+          {
+            "title": "Department Operations Management",
+            "details": "Coordinate department budget planning and execution, manage various approval processes, and facilitate cross-department meetings, ensuring optimal team operational efficiency and resource allocation."
+          },
+          {
+            "title": "Innovation Technology Promotion",
+            "details": "Continuously introduce cutting-edge technical solutions, including DDD (Domain-Driven Design) implementation, real-time sales rate responsive automatic pricing algorithms, and intelligent development tool applications to enhance overall team technical capabilities."
+          },
+          {
+            "title": "Product Requirement Analysis & Planning",
+            "details": "Proactively assist product managers in requirement clarification and feature design, leverage technical expertise to identify potential risk points, and provide diversified solutions to ensure product delivery quality and user experience."
+          },
+          {
+            "title": "Cross-department Collaboration Advancement",
+            "details": "Establish efficient cross-department communication mechanisms, coordinate collaboration between business, product, and design teams to ensure project timeline and quality objectives are met."
+          },
+          {
+            "title": "Operations Efficiency Optimization",
+            "details": "Develop intelligent operations tools, visualize complex data judgment processes, and build developer-specific management systems that significantly reduce manual operation time, allowing technical staff to focus on core development work."
+          },
+          {
+            "title": "Development Experience Enhancement",
+            "details": "Establish unified coding standards and architectural guidelines, refactor scattered duplicate code, and build shared component libraries that significantly improve code maintainability and development efficiency."
+          }
+        ]
+      },
+      {
+        "company": "NISSAN Design Co., Ltd.",
+        "position": "Full Stack Engineer",
+        "period": "Aug 2018 - Apr 2022",
+        "description": "Independently responsible for third-party payment system architecture design and development, mobile application development, and corporate website construction and maintenance, covering the complete software development lifecycle.",
+        "responsibilities": [
+          {
+            "title": "Full-Stack System Design & Development",
+            "details": "Independently completed the entire software development lifecycle from requirement analysis to system deployment, including system architecture design, database design, frontend and backend development, and testing deployment."
+          },
+          {
+            "title": "High-Concurrency Payment System Optimization",
+            "details": "Designed and implemented multi-layer performance optimization strategies for high-frequency payment API call scenarios, including Redis distributed caching, horizontal database sharding, asynchronous buffer writing, and batch processing mechanisms, significantly improving system throughput."
+          },
+          {
+            "title": "Third-Party API Integration Management",
+            "details": "Conducted technical integration with multiple payment vendors and partners, proactively tracked integration progress and data synchronization status, established comprehensive API monitoring and exception handling mechanisms to ensure stable system operation."
+          },
+          {
+            "title": "DevOps Infrastructure Setup & Maintenance",
+            "details": "Due to team resource constraints, undertook infrastructure management responsibilities, including cloud server configuration, automated deployment process establishment, and application release and monitoring operations."
+          },
+          {
+            "title": "Cross-Technology Stack Learning & Implementation",
+            "details": "Started as a backend engineer and proactively learned mobile application development and frontend technologies, rapidly mastered diverse technology stacks through hands-on practice, successfully helping the company achieve comprehensive product development requirements while demonstrating strong learning adaptability."
+          }
+        ]
+      }
+    ]
+  },
+  "projects": {
+    "zh": [
+      {
+        "name": "大師 Mastripms - 旅宿管理系統",
+        "period": "2022年9月 - 現在",
+        "status": "active",
+        "description": "開發一個完整的旅宿管理系統，包含房間管理、訂單管理、支付系統。使用微服務架構，支援高併發訪問。目前持續維護和新增功能。",
+        "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
+        "highlights": [
+          "整合多種支付方式",
+          "實現即時庫存/房價管理",
+          "與Channel Manager 整合，及時同步房價/庫存",
+          "持續優化效能和用戶體驗"
+        ],
+        "link": null,
+        "demo": "https://www.mastripms.com/"
+      }
+    ],
+    "en": [
+      {
+        "name": "大師 Mastripms - Hotel Property Management System",
+        "period": "Sep 2022 - Present",
+        "status": "active",
+        "description": "Developed a complete hotel property management system including room management, order management, and payment system. Built with microservices architecture to support high concurrent access. Currently under active maintenance and feature development.",
+        "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
+        "highlights": [
+          "Integrated multiple payment methods",
+          "Real-time inventory management",
+          "Integrate with Channel Manager, sync room price/inventory in real-time",
+          "Continuous performance optimization"
+        ],
+        "link": null,
+        "demo": "https://www.mastripms.com/"
+      }
+    ]
+  },
+  "education": {
+    "zh": [
+      {
+        "school": "國立台中科技大學",
+        "degree": "學士 - 資訊工程系",
+        "period": "2014年9月 - 2018年6月",
+        "description": ""
+      },
+      {
+        "school": "國立台中高級工業職業學校",
+        "degree": "資訊科",
+        "period": "2011年9月 - 2014年6月",
+        "description": ""
+      }
+    ],
+    "en": [
+      {
+        "school": "National Taichung University of Science and Technology",
+        "degree": "Bachelor of Science - Information Engineering",
+        "period": "Sep 2014 - Jun 2018",
+        "description": ""
+      },
+      {
+        "school": "National Taichung Industrial Vocational High School",
+        "degree": "Information Science",
+        "period": "Sep 2011 - Jun 2014",
+        "description": ""
+      }
+    ]
+  },
+  "skills": {
+    "zh": [
+      {
+        "category": "程式語言",
+        "items": ["PHP", "JavaScript", "TypeScript", "C#", "Python", "C++", "C"]
+      },
+      {
+        "category": "前端技術",
+        "items": ["React", "Next.js", "Vue.js", "Nuxt.js", "Svelte", "SvelteKit", "Tailwind CSS", "HTML/CSS"]
+      },
+      {
+        "category": "後端技術",
+        "items": ["Node.js", "Express", "Bun", "NestJS", "Laravel", "MySQL", "Redis", "PostgreSQL", "MSSQL", "Firebase", "MongoDB"]
+      },
+      {
+        "category": "維運技術",
+        "items": ["Vercel", "fly.io", "Git", "Docker", "Docker Compose", "GCP", "Azure", "CI/CD", "GitLab CI/CD", "GitHub Actions"]
+      }
+    ],
+    "en": [
+      {
+        "category": "Programming Languages",
+        "items": ["PHP", "JavaScript", "TypeScript", "C#", "Python", "C++", "C"]
+      },
+      {
+        "category": "Frontend Technologies",
+        "items": ["React", "Next.js", "Vue.js", "Nuxt.js", "Svelte", "SvelteKit", "Tailwind CSS", "HTML/CSS"]
+      },
+      {
+        "category": "Backend Technologies",
+        "items": ["Node.js", "Express", "Bun", "NestJS", "Laravel", "MySQL", "Redis", "PostgreSQL", "MSSQL", "Firebase", "MongoDB"]
+      },
+      {
+        "category": "DevOps & Infrastructure",
+        "items": ["Vercel", "fly.io", "Git", "Docker", "Docker Compose", "GCP", "Azure", "CI/CD", "GitLab CI/CD", "GitHub Actions"]
+      }
+    ]
+  },
+  "certifications": {
+    "zh": [
+      {
+        "name": "經濟部物聯網應用工程師-初級",
+        "issuer": "經濟部",
+        "date": "2017年12月",
+        "expiryDate": null,
+        "credentialId": "",
+        "description": "1.物聯網基礎架構概論 2.物聯網系統與應用",
+        "link": ""
+      }
+    ],
+    "en": [
+      {
+        "name": "Economic Development Department IoT Application Engineer - Basic",
+        "issuer": "Economic Development Department",
+        "date": "Dec 2017",
+        "expiryDate": null,
+        "credentialId": "",
+        "description": "1. IoT Basic Architecture Overview 2. IoT System and Application",
+        "link": ""
+      }
+    ]
+  }
+} 
