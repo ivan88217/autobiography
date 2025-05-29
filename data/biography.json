@@ -234,6 +234,171 @@
         ],
         "link": null,
         "demo": "https://www.mastripms.com/"
+      },
+      {
+        "name": "第四方支付系統",
+        "period": "2018年8月 - 2022年4月",
+        "status": "abandoned",
+        "description": "提供API給客戶使用任何第三方支付服務，包含會計帳務處理與利潤分成功能。",
+        "technologies": ["PHP", "CodeIgniter", "MySQL", "WebSocket"],
+        "highlights": [
+          "整合多家第三方支付服務",
+          "自動化會計帳務處理",
+          "利潤分成計算機制",
+          "24x7客服技術支援"
+        ],
+        "link": null,
+        "demo": null
+      },
+      {
+        "name": "第三方支付系統",
+        "period": "2018年8月 - 2022年4月",
+        "status": "abandoned",
+        "description": "提供API給客戶使用中國(微信、支付寶、網路銀行等)和越南(Momo、Zalo、網路銀行等)的各種支付方式，包含會計帳務處理與利潤分成功能。",
+        "technologies": ["PHP", "CodeIgniter", "MySQL", "WebSocket"],
+        "highlights": [
+          "支援中國與越南主要支付方式",
+          "API整合與對接服務",
+          "自動化會計帳務處理",
+          "即時支付狀態追蹤"
+        ],
+        "link": null,
+        "demo": null
+      },
+      {
+        "name": "SMS檢測與轉發Android應用程式",
+        "period": "2018年 - 2022年",
+        "status": "abandoned",
+        "description": "Android應用程式，可將所有收到的簡訊轉發到伺服器，使用正規表達式識別中國銀行簡訊內容以自動審核訂單。",
+        "technologies": ["Node.js", "TypeScript", "Xamarin Android", "Xamarin Form", "WebSocket", "SQLite", "Entity Framework"],
+        "highlights": [
+          "即時簡訊轉發功能",
+          "正規表達式內容識別",
+          "銀行簡訊自動審核",
+          "離線設備偵測機制"
+        ],
+        "link": "https://github.com/ivan88217/SmsHelperCustom",
+        "demo": null
+      },
+      {
+        "name": "CPR教學系統",
+        "period": "2015年8月 - 2016年12月",
+        "status": "deprecated",
+        "description": "使用Xbox Kinect結合Arduino開發的CPR教學系統，能夠指導使用者正確的CPR操作方式。",
+        "technologies": ["C#", "WinForm", "WPF", "Kinect for Windows API", "C++", "Arduino"],
+        "highlights": [
+          "動作識別與指導",
+          "即時回饋機制",
+          "互動式教學介面",
+          "硬體整合開發"
+        ],
+        "link": "https://github.com/ivan88217/CPR",
+        "demo": null
+      },
+      {
+        "name": "鍵值資料庫",
+        "period": "2020年 - 2021年",
+        "status": "deprecated",
+        "description": "類似Redis的鍵值資料庫系統，提供基本的Get/Set操作功能。",
+        "technologies": ["TypeScript", "NoSQL"],
+        "highlights": [
+          "Redis-like功能實現",
+          "高效能鍵值存取",
+          "簡潔的API設計",
+          "TypeScript完整開發"
+        ],
+        "link": "https://github.com/ivan88217/node-cache",
+        "demo": null
+      },
+      {
+        "name": "庫存管理系統",
+        "period": "2019年 - 2020年",
+        "status": "abandoned",
+        "description": "管理庫存位置與數量的系統，使用QR碼取代傳統條碼，支援手機掃描盤點功能。",
+        "technologies": ["ASP.NET Core MVC", "SQL Server", "Entity Framework Core"],
+        "highlights": [
+          "QR碼庫存管理",
+          "手機掃描盤點",
+          "即時庫存追蹤",
+          "完整後台管理系統"
+        ],
+        "link": "https://github.com/ivan88217/Inventory_System",
+        "demo": null
+      },
+      {
+        "name": "DeepSea v1 - 戰意遊戲成員管理系統",
+        "period": "2020年 - 2021年", 
+        "status": "abandoned",
+        "description": "為《戰意》遊戲開發的成員管理系統第一版，用於指揮領土戰團隊目標分配。使用傳統前端技術開發，部署於Firebase平台。",
+        "technologies": ["HTML", "CSS", "jQuery", "JavaScript", "Firebase"],
+        "highlights": [
+          "成員戰爭指揮功能",
+          "團隊目標管理",
+          "Firebase雲端部署",
+          "傳統前端技術實現"
+        ],
+        "link": null,
+        "demo": "https://deep-sea.web.app/"
+      },
+      {
+        "name": "DeepSea v2 - 戰意遊戲成員管理系統",
+        "period": "2021年 - 2022年",
+        "status": "deprecated",
+        "description": "為《戰意》遊戲開發的成員管理系統第二版，用於指揮領土戰團隊目標分配。使用.NET Blazor Server技術重新架構開發，提供更好的效能與維護性。",
+        "technologies": [".NET Blazor Server", "ASP.NET Core", "SQL Server", "Entity Framework Core"],
+        "highlights": [
+          "成員戰爭指揮功能",
+          "團隊目標管理",
+          "Blazor Server架構",
+          "Azure雲端部署"
+        ],
+        "link": "https://github.com/ivan88217/DeepSea",
+        "demo": "http://deep-sea.azurewebsites.net/"
+      },
+      {
+        "name": "DeepSea Discord機器人",
+        "period": "2020年 - 2022年",
+        "status": "deprecated",
+        "description": "Discord機器人，讓成員查詢團隊目標與隊伍資訊。整合Google翻譯與Bing翻譯API，連接Firebase實現數據同步與投票功能。",
+        "technologies": ["TypeScript", "Discord.js", "Firebase", "Google Translate API", "Bing Translate API"],
+        "highlights": [
+          "團隊資訊查詢功能",
+          "多語言翻譯整合",
+          "Firebase數據同步",
+          "Discord投票機制"
+        ],
+        "link": "https://github.com/ivan88217/deepSeaDCBot",
+        "demo": null
+      },
+      {
+        "name": "老ㄙ機 v1 - 成人影片網站",
+        "period": "2021年",
+        "status": "abandoned", 
+        "description": "使用網路爬蟲技術獲取影片資訊與資源的成人影片網站，使用React.js與Next.js開發，部署於Vercel平台。",
+        "technologies": ["React.js", "Next.js", "Web Crawler", "CSS", "Vercel"],
+        "highlights": [
+          "網路爬蟲數據收集",
+          "React前端框架實現",
+          "Vercel雲端部署",
+          "響應式網頁設計"
+        ],
+        "link": null,
+        "demo": "https://veteran-driver-alpha.vercel.app/"
+      },
+      {
+        "name": "老ㄙ機 v2 - 成人影片網站",
+        "period": "2022年",
+        "status": "abandoned",
+        "description": "使用Svelte.js與SvelteKit重新開發的第二版本，保留原有功能的同時提供更好的使用者體驗。",
+        "technologies": ["Svelte.js", "SvelteKit", "Web Crawler", "CSS", "Vercel"],
+        "highlights": [
+          "網路爬蟲數據收集",
+          "Svelte前端框架實現",
+          "Vercel雲端部署",
+          "優化使用者體驗"
+        ],
+        "link": null,
+        "demo": "https://veteran-driver-svelte.vercel.app/"
       }
     ],
     "en": [
@@ -252,6 +417,171 @@
         ],
         "link": null,
         "demo": "https://www.mastripms.com/"
+      },
+      {
+        "name": "Fourth-party Payment System",
+        "period": "Aug 2018 - Apr 2022",
+        "status": "abandoned",
+        "description": "Provide API to customers to use any third-party payment services, including accounting and profit sharing functionality.",
+        "technologies": ["PHP", "CodeIgniter", "MySQL", "WebSocket"],
+        "highlights": [
+          "Integration with multiple third-party payment services",
+          "Automated accounting processing",
+          "Profit sharing calculation mechanism",
+          "24x7 customer service technical support"
+        ],
+        "link": null,
+        "demo": null
+      },
+      {
+        "name": "Third-party Payment System",
+        "period": "Aug 2018 - Apr 2022",
+        "status": "abandoned",
+        "description": "Provide API to customers to use any payment method in China (WeChat, Alipay, Online banking, etc.) and Vietnam (Momo, Zalo, Online banking, etc.), including accounting and profit sharing functionality.",
+        "technologies": ["PHP", "CodeIgniter", "MySQL", "WebSocket"],
+        "highlights": [
+          "Support for major payment methods in China and Vietnam",
+          "API integration and connection services",
+          "Automated accounting processing",
+          "Real-time payment status tracking"
+        ],
+        "link": null,
+        "demo": null
+      },
+      {
+        "name": "SMS Detect and Forwarding Application for Android",
+        "period": "2018 - 2022",
+        "status": "abandoned",
+        "description": "Android application that forwards all received and inbox SMS to server and uses regular expression with PHP to recognize content. Recognizes SMS from Chinese banks to automatically review orders.",
+        "technologies": ["Node.js", "TypeScript", "Xamarin Android", "Xamarin Form", "WebSocket", "SQLite", "Entity Framework"],
+        "highlights": [
+          "Real-time SMS forwarding functionality",
+          "Regular expression content recognition",
+          "Bank SMS automatic review",
+          "Offline device detection mechanism"
+        ],
+        "link": "https://github.com/ivan88217/SmsHelperCustom",
+        "demo": null
+      },
+      {
+        "name": "CPR Teaching System",
+        "period": "Aug 2015 - Dec 2016",
+        "status": "deprecated",
+        "description": "CPR teaching system developed using Xbox Kinect combined with Arduino that guides users in proper CPR techniques.",
+        "technologies": ["C#", "WinForm", "WPF", "Kinect for Windows API", "C++", "Arduino"],
+        "highlights": [
+          "Motion recognition and guidance",
+          "Real-time feedback mechanism",
+          "Interactive teaching interface",
+          "Hardware integration development"
+        ],
+        "link": "https://github.com/ivan88217/CPR",
+        "demo": null
+      },
+      {
+        "name": "Key-Value Database",
+        "period": "2020 - 2021",
+        "status": "deprecated",
+        "description": "Redis-like key-value database system providing basic Get/Set operations.",
+        "technologies": ["TypeScript", "NoSQL"],
+        "highlights": [
+          "Redis-like functionality implementation",
+          "High-performance key-value access",
+          "Clean API design",
+          "Full TypeScript development"
+        ],
+        "link": "https://github.com/ivan88217/node-cache",
+        "demo": null
+      },
+      {
+        "name": "Inventory Management System",
+        "period": "2019 - 2020",
+        "status": "abandoned",
+        "description": "System for managing inventory location and quantity, using QR codes instead of traditional barcodes, with mobile phone scanning inventory check functionality.",
+        "technologies": ["ASP.NET Core MVC", "SQL Server", "Entity Framework Core"],
+        "highlights": [
+          "QR code inventory management",
+          "Mobile phone scanning inventory",
+          "Real-time inventory tracking",
+          "Complete backend management system"
+        ],
+        "link": "https://github.com/ivan88217/Inventory_System",
+        "demo": null
+      },
+      {
+        "name": "DeepSea v1 - Territorial Warfare Member Management for Conqueror's Blade",
+        "period": "2020 - 2021",
+        "status": "abandoned",
+        "description": "First version of member management system developed for Conqueror's Blade game to direct warfare and manage team targets. Built with traditional frontend technologies and deployed on Firebase platform.",
+        "technologies": ["HTML", "CSS", "jQuery", "JavaScript", "Firebase"],
+        "highlights": [
+          "Member warfare command functionality",
+          "Team target management",
+          "Firebase cloud deployment",
+          "Traditional frontend technology implementation"
+        ],
+        "link": null,
+        "demo": "https://deep-sea.web.app/"
+      },
+      {
+        "name": "DeepSea v2 - Territorial Warfare Member Management for Conqueror's Blade",
+        "period": "2021 - 2022",
+        "status": "deprecated",
+        "description": "Second version of member management system developed for Conqueror's Blade game to direct warfare and manage team targets. Rearchitected using .NET Blazor Server technology to provide better performance and maintainability.",
+        "technologies": [".NET Blazor Server", "ASP.NET Core", "SQL Server", "Entity Framework Core"],
+        "highlights": [
+          "Member warfare command functionality",
+          "Team target management",
+          "Blazor Server architecture",
+          "Azure cloud deployment"
+        ],
+        "link": "https://github.com/ivan88217/DeepSea",
+        "demo": "http://deep-sea.azurewebsites.net/"
+      },
+      {
+        "name": "DeepSea Discord Bot",
+        "period": "2020 - 2022",
+        "status": "abandoned",
+        "description": "Discord bot that allows members to look up team targets and which team they're on. Integrated Google Translate and Bing Translate APIs, connected to Firebase for data synchronization and voting functionality.",
+        "technologies": ["TypeScript", "Discord.js", "Firebase", "Google Translate API", "Bing Translate API"],
+        "highlights": [
+          "Team information query functionality",
+          "Multi-language translation integration",
+          "Firebase data synchronization",
+          "Discord voting mechanism"
+        ],
+        "link": "https://github.com/ivan88217/deepSeaDCBot",
+        "demo": null
+      },
+      {
+        "name": "Veteran Driver v1 - Adult Video Site",
+        "period": "2021",
+        "status": "abandoned",
+        "description": "Adult video site using web crawler to get video info and resources, built with React.js and Next.js, deployed on Vercel.",
+        "technologies": ["React.js", "Next.js", "Web Crawler", "CSS", "Vercel"],
+        "highlights": [
+          "Web crawler data collection", 
+          "React frontend implementation",
+          "Vercel cloud deployment",
+          "Responsive web design"
+        ],
+        "link": null,
+        "demo": "https://veteran-driver-alpha.vercel.app/"
+      },
+      {
+        "name": "Veteran Driver v2 - Adult Video Site", 
+        "period": "2022",
+        "status": "abandoned",
+        "description": "Second version of adult video site rebuilt with Svelte.js and SvelteKit, maintaining same functionality while providing better user experience.",
+        "technologies": ["Svelte.js", "SvelteKit", "Web Crawler", "CSS", "Vercel"],
+        "highlights": [
+          "Web crawler data collection",
+          "Svelte frontend implementation", 
+          "Vercel cloud deployment",
+          "Enhanced user experience"
+        ],
+        "link": null,
+        "demo": "https://veteran-driver-svelte.vercel.app/"
       }
     ]
   },
