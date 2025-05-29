@@ -1,9 +1,10 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useEffect } from "react"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { LanguageToggle } from "@/components/language-toggle"
 import { BiographySections } from "@/components/biography-sections"
+import { PasswordProtection } from "@/components/password-protection"
 import biographyData from "@/data/biography.json"
 
 type ProjectStatus = 'active' | 'deprecated' | 'abandoned'
@@ -31,9 +32,28 @@ interface Certification {
 
 export default function Home() {
   const [language, setLanguage] = useState<'zh' | 'en'>('zh')
+  const [isAuthenticated, setIsAuthenticated] = useState(false)
+  const [isLoading, setIsLoading] = useState(true)
+
+  // 檢查是否已經通過驗證
+  useEffect(() => {
+    const checkAuth = () => {
+      if (typeof window !== 'undefined') {
+        const authenticated = localStorage.getItem("biography-authenticated")
+        setIsAuthenticated(authenticated === "true")
+      }
+      setIsLoading(false)
+    }
+
+    checkAuth()
+  }, [])
 
   const handleLanguageChange = (newLanguage: 'zh' | 'en') => {
     setLanguage(newLanguage)
+  }
+
+  const handleCorrectPassword = () => {
+    setIsAuthenticated(true)
   }
 
   const currentData = {
@@ -45,6 +65,24 @@ export default function Home() {
     certifications: biographyData.certifications[language] as Certification[],
   }
 
+  // 顯示載入狀態
+  if (isLoading) {
+    return (
+      <div className="min-h-screen flex items-center justify-center bg-background">
+        <div className="text-center">
+          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-primary mx-auto mb-4"></div>
+          <p className="text-muted-foreground">載入中...</p>
+        </div>
+      </div>
+    )
+  }
+
+  // 如果未通過驗證，顯示密碼輸入頁面
+  if (!isAuthenticated) {
+    return <PasswordProtection onCorrectPassword={handleCorrectPassword} />
+  }
+
+  // 通過驗證後顯示原有內容
   return (
     <div className="min-h-screen bg-background">
       {/* Header with controls */}
