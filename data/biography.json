@@ -37,7 +37,7 @@
           },
           {
             "title": "維運管理與應急處理",
-            "details": "建立完善的系統監控機制，負責7x24小時輪值工作，包含系統健康檢查、定時任務維護、緊急事件快速響應，確保業務連續性。"
+            "details": "建立完善的系統監控機制，負責緊急事件即時響應處理，非緊急事件則安排適當時間處理，包含系統健康檢查、定時任務維護等維運工作，確保業務連續性。"
           },
           {
             "title": "技術團隊領導",
@@ -100,8 +100,16 @@
             "details": "因應團隊資源限制，承擔基礎設施管理職責，包含雲端伺服器配置、自動化部署流程建立、應用程式發佈與監控等維運工作。"
           },
           {
+            "title": "24x7緊急支援服務",
+            "details": "負責系統緊急事件的24x7 on-call響應處理，並盡力回應客戶遇到的各類技術問題，確保系統串接順暢。"
+          },
+          {
             "title": "跨技術棧學習與實踐",
             "details": "從後端工程師起步，主動學習移動應用開發與前端技術，在實戰中快速掌握多元技術棧，成功協助公司完成全方位產品開發需求，展現強大的學習適應能力。"
+          },
+          {
+            "title": "客服技術支援",
+            "details": "協助我方客服人員處理技術相關問題，提供專業技術解答與故障排除指導，確保客戶問題能夠快速有效解決，提升客戶服務品質。"
           }
         ]
       }
@@ -123,7 +131,7 @@
           },
           {
             "title": "Operations Management & Emergency Response",
-            "details": "Established comprehensive system monitoring mechanisms, responsible for 7x24 on-call duties including system health checks, scheduled task maintenance, and rapid emergency response to ensure business continuity."
+            "details": "Established comprehensive system monitoring mechanisms, responsible for immediate response to emergency incidents and scheduling appropriate time for non-urgent issues, including system health checks and scheduled task maintenance to ensure business continuity."
           },
           {
             "title": "Technical Team Leadership",
@@ -186,8 +194,16 @@
             "details": "Due to team resource constraints, undertook infrastructure management responsibilities, including cloud server configuration, automated deployment process establishment, and application release and monitoring operations."
           },
           {
+            "title": "24x7 Emergency Support Services",
+            "details": "Responsible for 24x7 on-call response to system emergency incidents and efforts to address various technical issues encountered by customers to ensure smooth system integration."
+          },
+          {
             "title": "Cross-Technology Stack Learning & Implementation",
             "details": "Started as a backend engineer and proactively learned mobile application development and frontend technologies, rapidly mastered diverse technology stacks through hands-on practice, successfully helping the company achieve comprehensive product development requirements while demonstrating strong learning adaptability."
+          },
+          {
+            "title": "Customer Support Technical Assistance",
+            "details": "Assist customer service personnel in handling technical issues, provide professional technical solutions and troubleshooting guidance to ensure customer problems are resolved quickly and effectively, improving overall customer service quality."
           }
         ]
       }
