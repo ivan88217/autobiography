@@ -223,7 +223,7 @@ export function BiographySections({
           {language === 'zh' ? '請優先使用 Email 聯繫' : 'Please contact via Email preferably'}
         </p>
         
-        <p className="text-lg max-w-3xl mx-auto leading-relaxed">
+        <p className="text-lg max-w-3xl mx-auto leading-relaxed whitespace-pre-line">
           {personal.summary}
         </p>
       </section>
@@ -253,7 +253,7 @@ export function BiographySections({
                   </span>
                 </div>
                 <p className="font-medium text-primary">{exp.company}</p>
-                <p className="text-muted-foreground leading-relaxed">
+                <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
                   {exp.description}
                 </p>
                 
@@ -269,7 +269,7 @@ export function BiographySections({
                           <h6 className="text-sm font-medium text-primary">
                             • {resp.title}
                           </h6>
-                          <p className="text-sm text-muted-foreground leading-relaxed ml-3">
+                          <p className="text-sm text-muted-foreground leading-relaxed ml-3 whitespace-pre-line">
                             {resp.details}
                           </p>
                         </div>
@@ -302,7 +302,7 @@ export function BiographySections({
                 </span>
               </div>
               <p className="font-medium text-primary">{edu.school}</p>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
                 {edu.description}
               </p>
             </div>
@@ -358,7 +358,7 @@ export function BiographySections({
                 </div>
               </CardHeader>
               <CardContent className="space-y-4">
-                <p className="text-sm text-muted-foreground leading-relaxed">
+                <p className="text-sm text-muted-foreground leading-relaxed whitespace-pre-line">
                   {cert.description}
                 </p>
                 
@@ -431,7 +431,7 @@ export function BiographySections({
                     {getStatusBadge(project.status)}
                   </div>
                 </div>
-                <CardDescription className="text-sm leading-relaxed">
+                <CardDescription className="text-sm leading-relaxed whitespace-pre-line">
                   {project.description}
                 </CardDescription>
               </CardHeader>
@@ -466,7 +466,7 @@ export function BiographySections({
                         className="flex items-start gap-2"
                       >
                         <span className="text-primary mt-1">•</span>
-                        <span>{highlight}</span>
+                        <span className="whitespace-pre-line">{highlight}</span>
                       </li>
                     ))}
                   </ul>
