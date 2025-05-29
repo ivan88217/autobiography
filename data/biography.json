@@ -7,7 +7,7 @@
       "phone": "+886-988622012",
       "location": "台灣，台中",
       "github": "https://github.com/ivan88217",
-      "summary": "身為一位充滿熱忱的全端工程師，我專精於探索前沿技術並將其應用於實際場景中。我的核心理念是「學以致用」——每當接觸新技術時，都會積極尋找實戰應用機會，深入了解其優勢與限制，並建立完整的技術評估框架，以便在未來專案中做出最適合的技術選擇。\n\n隨著職涯發展，我深刻體認到優秀的工程師不應局限於純技術領域，而需要具備跨領域整合能力。因此，我持續拓展知識邊界，從商業分析、用戶體驗到專案管理甚至是會計學等等，這些多元視角讓我能夠設計出更符合實際需求的解決方案。\n\n在AI革命的浪潮中，我積極響應AI帶來的變化並重新定義工作模式。從初期利用AI輔助解決開發難題，到導入GitHub Copilot實現AI協作開發，再到現在運用Cursor進行智能化程式設計，我逐漸將自己定位為「系統架構師」——專注於整體規劃、架構設計和技術決策，讓AI處理繁瑣的代碼實現，實現更高層次的價值創造，讓工程師不只是工程師。"
+      "summary": "身為一位充滿熱忱的全端工程師，我致力於探索前沿技術並將其應用於實際場景中。我的核心理念是「學以致用」——每當接觸新技術時，都會積極尋找實戰應用機會，深入了解其優勢與限制，並建立完整的技術評估框架，以便在未來專案中做出最適合的技術選擇。\n\n隨著職涯發展，我深刻體認到優秀的工程師不應局限於純技術領域，而需要具備跨領域整合能力。因此，我持續拓展知識邊界，從商業分析、用戶體驗到專案管理甚至是會計學等等，這些多元視角讓我能夠設計出更符合實際需求的解決方案。\n\n在AI革命的浪潮中，我積極響應AI帶來的變化並重新定義工作模式。從初期利用AI輔助解決開發難題，到導入GitHub Copilot實現AI協作開發，再到現在運用Cursor進行智能化程式設計，我逐漸將自己定位為「系統架構師」——專注於整體規劃、架構設計和技術決策，讓AI處理繁瑣的代碼實現，實現更高層次的價值創造，讓工程師不只是工程師。"
     },
     "en": {
       "name": "Ivan Shih",
@@ -16,7 +16,7 @@
       "phone": "+886-988622012",
       "location": "Taichung, Taiwan",
       "github": "https://github.com/ivan88217",
-      "summary": "As a passionate full-stack engineer, I specialize in exploring cutting-edge technologies and applying them to practical applications. My core philosophy is 'learning through application' — whenever I encounter new technologies, I actively seek practical implementation opportunities to understand their strengths and limitations, building a comprehensive technical evaluation framework for optimal technology selection in future projects.\n\nThroughout my career progression, I've recognized that exceptional engineers should not be confined to purely technical domains but must possess cross-disciplinary integration capabilities. Therefore, I continuously expand my knowledge boundaries, from business analysis and user experience to project management and even accounting, enabling me to design solutions that better meet actual requirements through these diverse perspectives.\n\nIn the wave of the AI revolution, I actively embrace the changes brought by AI and redefine my working paradigm. From initially using AI to assist with development challenges, to implementing GitHub Copilot for AI-collaborative development, and now utilizing Cursor for intelligent programming, I've gradually positioned myself as a 'system architect' — focusing on overall planning, architectural design, and technical decision-making while letting AI handle tedious code implementation, achieving higher-level value creation and making engineers more than just engineers."
+      "summary": "As a passionate full-stack engineer, I am dedicated to exploring cutting-edge technologies and applying them to practical applications. My core philosophy is 'learning through application' — whenever I encounter new technologies, I actively seek practical implementation opportunities to understand their strengths and limitations, building a comprehensive technical evaluation framework for optimal technology selection in future projects.\n\nThroughout my career progression, I've recognized that exceptional engineers should not be confined to purely technical domains but must possess cross-disciplinary integration capabilities. Therefore, I continuously expand my knowledge boundaries, from business analysis and user experience to project management and even accounting, enabling me to design solutions that better meet actual requirements through these diverse perspectives.\n\nIn the wave of the AI revolution, I actively embrace the changes brought by AI and redefine my working paradigm. From initially using AI to assist with development challenges, to implementing GitHub Copilot for AI-collaborative development, and now utilizing Cursor for intelligent programming, I've gradually positioned myself as a 'system architect' — focusing on overall planning, architectural design, and technical decision-making while letting AI handle tedious code implementation, achieving higher-level value creation and making engineers more than just engineers."
     }
   },
   "experience": {
@@ -74,6 +74,10 @@
           {
             "title": "開發體驗提升",
             "details": "建立統一的程式碼規範與架構標準，重構分散的重複代碼，建置共用組件庫，顯著提升程式碼可維護性與開發效率。"
+          },
+          {
+            "title": "部門人員招募面試",
+            "details": "負責部門技術人員招募面試流程，包含履歷篩選、技術能力評估、面試題目設計與執行，確保新進人員技術能力符合團隊需求與企業文化適配度。"
           }
         ]
       },
@@ -168,6 +172,10 @@
           {
             "title": "Development Experience Enhancement",
             "details": "Establish unified coding standards and architectural guidelines, refactor scattered duplicate code, and build shared component libraries that significantly improve code maintainability and development efficiency."
+          },
+          {
+            "title": "Department Personnel Recruitment Interview",
+            "details": "Responsible for department technical personnel recruitment interview process, including resume screening, technical capability assessment, interview question design and execution, ensuring new personnel technical capabilities meet team needs and enterprise culture compatibility."
           }
         ]
       },
