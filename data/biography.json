@@ -252,7 +252,7 @@
       },
       {
         "name": "Reelax - 會員點數回饋制訂房系統",
-        "period": "2022年9月 - 現在",
+        "period": "2023年11月 - 現在",
         "status": "active",
         "description": "專為會員設計的點數回饋制OTA訂房平台，透過點數制提升用戶黏性，建立完整的會員生態系統。",
         "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
@@ -284,7 +284,7 @@
       },
       {
         "name": "Data Center - 收益管理系統資料彙整中心",
-        "period": "2022年9月 - 現在",
+        "period": "2024年3月 - 現在",
         "status": "active",
         "description": "作為PMS與RMS系統間的資料中轉橋樑，負責大量數據的即時處理、轉換與同步，確保各系統間資料一致性。",
         "technologies": ["Express.js", "Rx.js", "BigQuery", "Prisma"],
@@ -300,7 +300,7 @@
       },
       {
         "name": "Debugger - 開發人員資料控管系統",
-        "period": "2022年9月 - 現在",
+        "period": "2024年5月 - 現在",
         "status": "active",
         "description": "為開發團隊設計的內部資料控管與除錯工具，提供系統監控、日誌分析、資料查詢等功能，提升開發效率。",
         "technologies": ["Next.js", "React", "Elysia.js", "Prisma", "Rx.js"],
@@ -337,7 +337,7 @@
       },
       {
         "name": "辦公室物聯網系統",
-        "period": "2023年6月 - 現在",
+        "period": "2025年2月 - 現在",
         "status": "active",
         "description": "智慧辦公室環境監控系統，透過Arduino與紅外線感測技術，實現辦公室環境自動化控制與數據收集分析。",
         "technologies": ["Astro", "React", "Arduino", "C", "紅外線技術", "Elysia.js"],
@@ -548,7 +548,7 @@
       },
       {
         "name": "Reelax - Member Point-of-Sale System",
-        "period": "Sep 2022 - Present",
+        "period": "Nov 2023 - Present",
         "status": "active",
         "description": "Designed for members, this point-of-sale system allows users to redeem points for hotel bookings through a point-of-sale platform, building a complete member ecosystem through a point-of-sale system.",
         "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
@@ -580,7 +580,7 @@
       },
       {
         "name": "Data Center - Revenue Management System Data Consolidation Center",
-        "period": "Sep 2022 - Present",
+        "period": "Mar 2024 - Present",
         "status": "active",
         "description": "As a data bridge between PMS and RMS systems, it is responsible for real-time processing, conversion, and synchronization of large amounts of data to ensure data consistency between systems.",
         "technologies": ["Express.js", "Rx.js", "BigQuery", "Prisma"],
@@ -596,7 +596,7 @@
       },
       {
         "name": "Debugger - Developer Data Management System",
-        "period": "Sep 2022 - Present",
+        "period": "May 2024 - Present",
         "status": "active",
         "description": "Designed for the internal data management and debugging tools for the development team, providing system monitoring, log analysis, and data query functions to improve development efficiency.",
         "technologies": ["Next.js", "React", "Elysia.js", "Prisma", "Rx.js"],
@@ -633,7 +633,7 @@
       },
       {
         "name": "Office IoT System",
-        "period": "Jun 2023 - Present",
+        "period": "Feb 2025 - Present",
         "status": "active",
         "description": "Smart office environment monitoring system that implements automatic control and data collection analysis of the office environment through Arduino and infrared sensing technology.",
         "technologies": ["Astro", "React", "Arduino", "C", "Infrared Technology", "Elysia.js"],
