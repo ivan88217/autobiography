@@ -48,6 +48,14 @@
             "details": "統籌部門預算規劃與執行、各類審核流程管理、跨部門會議協調等行政職責，確保團隊運作效率與資源最佳化配置。"
           },
           {
+            "title": "人員管理與績效評估",
+            "details": "執行公司績效評估制度，定期進行組內人員考核與職涯發展輔導，協助團隊成員能力提升與職業發展規劃。"
+          },
+          {
+            "title": "團隊衝突協調處理",
+            "details": "處理部門內部人員衝突與意見分歧，透過溝通協調化解團隊矛盾，維護良好的工作氛圍與團隊和諧，確保專案進行順暢。"
+          },
+          {
             "title": "創新技術推廣",
             "details": "持續引入前沿技術解決方案，包含DDD領域驅動設計實踐、因應實時銷售率的自動價格調整演算法、智能開發工具應用等，提升團隊整體技術水準。"
           },
@@ -124,6 +132,14 @@
           {
             "title": "Department Operations Management",
             "details": "Coordinate department budget planning and execution, manage various approval processes, and facilitate cross-department meetings, ensuring optimal team operational efficiency and resource allocation."
+          },
+          {
+            "title": "Personnel Management & Performance Evaluation",
+            "details": "Execute company performance evaluation system, conduct regular team member assessments and career development guidance to ensure team capability enhancement and job satisfaction."
+          },
+          {
+            "title": "Team Conflict Resolution",
+            "details": "Handle internal personnel conflicts and disagreements within the department through communication and negotiation to maintain a positive work environment and team harmony, ensuring smooth project progress."
           },
           {
             "title": "Innovation Technology Promotion",
