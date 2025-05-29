@@ -236,6 +236,119 @@
         "demo": "https://www.mastripms.com/"
       },
       {
+        "name": "Tourbobo - OTA訂房系統",
+        "period": "2022年9月 - 現在",
+        "status": "active",
+        "description": "開發線上旅遊代理商(OTA)訂房系統，提供消費者線上搜尋與預訂旅宿服務，整合多家飯店房源。",
+        "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
+        "highlights": [
+          "多供應商整合預訂系統",
+          "即時房態與價格查詢",
+          "智能推薦演算法",
+          "完整的訂單管理流程"
+        ],
+        "link": null,
+        "demo": "https://www.tourbobo.com/"
+      },
+      {
+        "name": "Reelax - 會員點數回饋制訂房系統",
+        "period": "2022年9月 - 現在",
+        "status": "active",
+        "description": "專為會員設計的點數回饋制OTA訂房平台，透過點數制提升用戶黏性，建立完整的會員生態系統。",
+        "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
+        "highlights": [
+          "會員積分制度設計",
+          "多層級會員權益管理",
+          "點數折抵訂房功能",
+          "個人化推薦服務",
+          "會員數據分析系統"
+        ],
+        "link": null,
+        "demo": "https://www.reelax.com.tw/"
+      },
+      {
+        "name": "RMS - 收益管理系統",
+        "period": "2022年9月 - 現在",
+        "status": "active",
+        "description": "旅宿收益管理系統，提供飯店業者進行收益分析、競爭對手分析及AI自動出價等功能，協助最大化收益表現。",
+        "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
+        "highlights": [
+          "旅店收益數據分析",
+          "競爭對手價格監控分析",
+          "AI演算法自動定價",
+          "動態價格調整建議",
+          "收益報表與趨勢預測"
+        ],
+        "link": null,
+        "demo": "https://www.mastrirms.com/"
+      },
+      {
+        "name": "Data Center - 收益管理系統資料彙整中心",
+        "period": "2022年9月 - 現在",
+        "status": "active",
+        "description": "作為PMS與RMS系統間的資料中轉橋樑，負責大量數據的即時處理、轉換與同步，確保各系統間資料一致性。",
+        "technologies": ["Express.js", "Rx.js", "BigQuery", "Prisma"],
+        "highlights": [
+          "PMS與RMS資料中轉處理",
+          "大數據即時處理管線",
+          "跨系統資料同步機制",
+          "響應式數據流處理",
+          "高效能資料倉儲管理"
+        ],
+        "link": null,
+        "demo": "https://data-center.mastripms.com/api-doc"
+      },
+      {
+        "name": "Debugger - 開發人員資料控管系統",
+        "period": "2022年9月 - 現在",
+        "status": "active",
+        "description": "為開發團隊設計的內部資料控管與除錯工具，提供系統監控、日誌分析、資料查詢等功能，提升開發效率。",
+        "technologies": ["Next.js", "React", "Elysia.js", "Prisma", "Rx.js"],
+        "highlights": [
+          "開發環境資料監控",
+          "即時系統日誌分析",
+          "跨服務資料查詢介面",
+          "錯誤追蹤與警報系統",
+          "開發團隊協作工具"
+        ],
+        "link": null,
+        "demo": "https://debugger-stage.itrd.tw/"
+      },
+      {
+        "name": "報到暨春酒活動系統",
+        "period": "2023年3月 - 2023年4月",
+        "status": "deprecated",
+        "description": "企業活動報到管理系統，提供春酒晚會及品牌部記者會等企業活動的線上報到功能，簡化活動簽到流程。",
+        "technologies": ["Next.js", "React", "Elysia.js", "Prisma"],
+        "highlights": [
+          "QR Code快速報到功能",
+          "活動參與者管理",
+          "即時出席統計",
+          "多場次活動支援",
+          "簽到數據分析報表",
+          "投票功能",
+          "投票結果及時預覽",
+          "春酒禮品抽獎",
+          "春酒禮品抽獎結果即時預覽",
+          "衍伸至各活動/記者會報到系統"
+        ],
+        "link": null,
+        "demo": "https://grandchecksubicbay-check-in.dunqian.tw"
+      },
+      {
+        "name": "辦公室物聯網系統",
+        "period": "2023年6月 - 現在",
+        "status": "active",
+        "description": "智慧辦公室環境監控系統，透過Arduino與紅外線感測技術，實現辦公室環境自動化控制與數據收集分析。",
+        "technologies": ["Astro", "React", "Arduino", "C", "紅外線技術", "Elysia.js"],
+        "highlights": [
+          "Arduino硬體整合開發",
+          "智慧辦公室自動化系統"
+        ],
+        "link": null,
+        "demo": "https://drive.google.com/file/d/1_VR6I9wrjty69nQ_xJBeV2jfitccAEDd/view?usp=sharing"
+      },
+      {
         "name": "第四方支付系統",
         "period": "2018年8月 - 2022年4月",
         "status": "abandoned",
@@ -417,6 +530,119 @@
         ],
         "link": null,
         "demo": "https://www.mastripms.com/"
+      },
+      {
+        "name": "Tourbobo - OTA Booking System",
+        "period": "Sep 2022 - Present",
+        "status": "active",
+        "description": "Developed an online travel agency (OTA) booking system that provides consumers with online search and booking hotel services, integrating resources from multiple hotel suppliers.",
+        "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
+        "highlights": [
+          "Multi-supplier integrated booking system",
+          "Real-time room status and price query",
+          "Smart recommendation algorithm",
+          "Complete order management process"
+        ],
+        "link": null,
+        "demo": "https://www.tourbobo.com/"
+      },
+      {
+        "name": "Reelax - Member Point-of-Sale System",
+        "period": "Sep 2022 - Present",
+        "status": "active",
+        "description": "Designed for members, this point-of-sale system allows users to redeem points for hotel bookings through a point-of-sale platform, building a complete member ecosystem through a point-of-sale system.",
+        "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
+        "highlights": [
+          "Member point-of-sale system design",
+          "Multi-level member rights management",
+          "Point-of-sale function",
+          "Personalized recommendation service",
+          "Member data analysis system"
+        ],
+        "link": null,
+        "demo": "https://www.reelax.com.tw/"
+      },
+      {
+        "name": "RMS - Revenue Management System",
+        "period": "Sep 2022 - Present",
+        "status": "active",
+        "description": "Hotel revenue management system that provides hotel operators with revenue analysis, competitor analysis, and AI automatic bidding functions to help maximize revenue performance.",
+        "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
+        "highlights": [
+          "Hotel revenue data analysis",
+          "Competitor price monitoring analysis",
+          "AI algorithm automatic pricing",
+          "Dynamic price adjustment suggestion",
+          "Revenue report and trend prediction"
+        ],
+        "link": null,
+        "demo": "https://www.mastrirms.com/"
+      },
+      {
+        "name": "Data Center - Revenue Management System Data Consolidation Center",
+        "period": "Sep 2022 - Present",
+        "status": "active",
+        "description": "As a data bridge between PMS and RMS systems, it is responsible for real-time processing, conversion, and synchronization of large amounts of data to ensure data consistency between systems.",
+        "technologies": ["Express.js", "Rx.js", "BigQuery", "Prisma"],
+        "highlights": [
+          "PMS and RMS data processing bridge",
+          "Big data real-time processing pipeline",
+          "Cross-system data synchronization mechanism",
+          "Responsive data stream processing",
+          "High-performance data storage management"
+        ],
+        "link": null,
+        "demo": "https://data-center.mastripms.com/api-doc"
+      },
+      {
+        "name": "Debugger - Developer Data Management System",
+        "period": "Sep 2022 - Present",
+        "status": "active",
+        "description": "Designed for the internal data management and debugging tools for the development team, providing system monitoring, log analysis, and data query functions to improve development efficiency.",
+        "technologies": ["Next.js", "React", "Elysia.js", "Prisma", "Rx.js"],
+        "highlights": [
+          "Development environment data monitoring",
+          "Real-time system log analysis",
+          "Cross-service data query interface",
+          "Error tracking and alarm system",
+          "Development team collaboration tool"
+        ],
+        "link": null,
+        "demo": "https://debugger-stage.itrd.tw/"
+      },
+      {
+        "name": "Check-in and Annual Party System",
+        "period": "Mar 2023 - Apr 2023", 
+        "status": "deprecated",
+        "description": "Enterprise event check-in management system that provides online check-in functions for annual party and brand department press conferences, simplifying the event check-in process.",
+        "technologies": ["Next.js", "React", "Elysia.js", "Prisma"],
+        "highlights": [
+          "QR Code quick check-in function",
+          "Event participant management",
+          "Real-time attendance statistics",
+          "Multi-event support",
+          "Check-in data analysis report",
+          "Voting function",
+          "Real-time voting result preview",
+          "Annual party gift lucky draw",
+          "Real-time lucky draw result preview",
+          "Extend to other event/press conference check-in system"
+        ],
+        "link": null,
+        "demo": "https://grandchecksubicbay-check-in.dunqian.tw"
+      },
+      {
+        "name": "Office IoT System",
+        "period": "Jun 2023 - Present",
+        "status": "active",
+        "description": "Smart office environment monitoring system that implements automatic control and data collection analysis of the office environment through Arduino and infrared sensing technology.",
+        "technologies": ["Astro", "React", "Arduino", "C", "Infrared Technology", "Elysia.js"],
+        "highlights": [
+          "Arduino hardware integration development",
+          "Smart office automation system"
+        ],
+        "link": null,
+        "demo": "https://drive.google.com/file/d/1_VR6I9wrjty69nQ_xJBeV2jfitccAEDd/view?usp=sharing"
       },
       {
         "name": "Fourth-party Payment System",
