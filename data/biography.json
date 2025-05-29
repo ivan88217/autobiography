@@ -78,6 +78,10 @@
           {
             "title": "部門人員招募面試",
             "details": "負責部門技術人員招募面試流程，包含履歷篩選、技術能力評估、面試題目設計與執行，確保新進人員技術能力符合團隊需求與企業文化適配度。"
+          },
+          {
+            "title": "職工福利委員會委員總幹事",
+            "details": "擔任公司職工福利委員會委員總幹事，負責統籌規劃員工福利制度與活動，包含福利預算管理、特約商店洽談合作、員工福利需求調查與分析、福利政策制定與執行，致力於提升員工工作滿意度與企業向心力，為全體同仁爭取最佳福利待遇。"
           }
         ]
       },
@@ -176,6 +180,10 @@
           {
             "title": "Department Personnel Recruitment Interview",
             "details": "Responsible for department technical personnel recruitment interview process, including resume screening, technical capability assessment, interview question design and execution, ensuring new personnel technical capabilities meet team needs and enterprise culture compatibility."
+          },
+          {
+            "title": "Employee Welfare Committee Member",
+            "details": "Act as the member-in-charge of the company's employee welfare committee, responsible for coordinating and planning employee welfare systems and activities, including welfare budget management, negotiation with special stores, investigation and analysis of employee welfare needs, and development and implementation of welfare policies, aiming to enhance employee job satisfaction and corporate cohesion, and to advocate for the best welfare benefits for all colleagues."
           }
         ]
       },
@@ -347,6 +355,22 @@
         ],
         "link": null,
         "demo": "https://drive.google.com/file/d/1_VR6I9wrjty69nQ_xJBeV2jfitccAEDd/view?usp=sharing"
+      },
+      {
+        "name": "職工福利委員會特約商店頁面",
+        "period": "2024年8月 - 現在",
+        "status": "active", 
+        "description": "為公司職工福利委員會開發的特約商店展示平台，提供員工便捷瀏覽與查詢各類特約商店資訊，包含商店介紹、優惠內容、聯絡方式等，提升員工福利使用便利性。",
+        "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+        "highlights": [
+          "特約商店資訊管理",
+          "優惠內容展示",
+          "分類查詢功能",
+          "響應式網頁設計",
+          "員工福利資訊整合"
+        ],
+        "link": null,
+        "demo": "https://dq-ewc-line-app.vercel.app/"
       },
       {
         "name": "第四方支付系統",
@@ -643,6 +667,22 @@
         ],
         "link": null,
         "demo": "https://drive.google.com/file/d/1_VR6I9wrjty69nQ_xJBeV2jfitccAEDd/view?usp=sharing"
+      },
+      {
+        "name": "Employee Welfare Committee Partner Store Website",
+        "period": "Aug 2024 - Present",
+        "status": "active",
+        "description": "Developed a partner store display platform for the company's employee welfare committee, providing employees with convenient browsing and querying of various partner store information, including store introductions, promotional content, and contact information to enhance employee welfare usage convenience.",
+        "technologies": ["Next.js", "React", "Tailwind CSS", "TypeScript"],
+        "highlights": [
+          "Partner store information management",
+          "Promotional content display",
+          "Category search functionality",
+          "Responsive web design",
+          "Employee welfare information integration"
+        ],
+        "link": null,
+        "demo": "https://dq-ewc-line-app.vercel.app/"
       },
       {
         "name": "Fourth-party Payment System",
