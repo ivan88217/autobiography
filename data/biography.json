@@ -240,6 +240,7 @@
           "持續優化效能和用戶體驗",
           "透過演算法實時計算房價"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://www.mastripms.com/"
       },
@@ -255,6 +256,7 @@
           "智能推薦演算法",
           "完整的訂單管理流程"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://www.tourbobo.com/"
       },
@@ -271,6 +273,7 @@
           "個人化推薦服務",
           "會員數據分析系統"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://www.reelax.com.tw/"
       },
@@ -287,6 +290,7 @@
           "動態價格調整建議",
           "收益報表與趨勢預測"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://www.mastrirms.com/"
       },
@@ -303,6 +307,7 @@
           "響應式數據流處理",
           "高效能資料倉儲管理"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://data-center.mastripms.com/api-doc"
       },
@@ -319,6 +324,7 @@
           "錯誤追蹤與警報系統",
           "開發團隊協作工具"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://debugger-stage.itrd.tw/"
       },
@@ -340,6 +346,7 @@
           "春酒禮品抽獎結果即時預覽",
           "衍伸至各活動/記者會報到系統"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://grandchecksubicbay-check-in.dunqian.tw"
       },
@@ -353,6 +360,7 @@
           "Arduino硬體整合開發",
           "智慧辦公室自動化系統"
         ],
+        "pictures": ["/images/projects/iot.png"],
         "link": null,
         "demo": "https://drive.google.com/file/d/1_VR6I9wrjty69nQ_xJBeV2jfitccAEDd/view?usp=sharing"
       },
@@ -369,6 +377,7 @@
           "響應式網頁設計",
           "員工福利資訊整合"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://dq-ewc-line-app.vercel.app/"
       },
@@ -384,6 +393,7 @@
           "利潤分成計算機制",
           "24x7客服技術支援"
         ],
+        "pictures": [],
         "link": null,
         "demo": null
       },
@@ -399,6 +409,7 @@
           "自動化會計帳務處理",
           "即時支付狀態追蹤"
         ],
+        "pictures": [],
         "link": null,
         "demo": null
       },
@@ -414,6 +425,7 @@
           "銀行簡訊自動審核",
           "離線設備偵測機制"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/SmsHelperCustom",
         "demo": null
       },
@@ -429,6 +441,7 @@
           "互動式教學介面",
           "硬體整合開發"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/CPR",
         "demo": null
       },
@@ -444,6 +457,7 @@
           "簡潔的API設計",
           "TypeScript完整開發"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/node-cache",
         "demo": null
       },
@@ -459,6 +473,7 @@
           "即時庫存追蹤",
           "完整後台管理系統"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/Inventory_System",
         "demo": null
       },
@@ -474,6 +489,7 @@
           "Firebase雲端部署",
           "傳統前端技術實現"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://deep-sea.web.app/"
       },
@@ -489,6 +505,7 @@
           "Blazor Server架構",
           "Azure雲端部署"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/DeepSea",
         "demo": "http://deep-sea.azurewebsites.net/"
       },
@@ -504,6 +521,7 @@
           "Firebase數據同步",
           "Discord投票機制"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/deepSeaDCBot",
         "demo": null
       },
@@ -519,6 +537,7 @@
           "Vercel雲端部署",
           "響應式網頁設計"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://veteran-driver-alpha.vercel.app/"
       },
@@ -534,6 +553,7 @@
           "Vercel雲端部署",
           "優化使用者體驗"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://veteran-driver-svelte.vercel.app/"
       }
@@ -552,6 +572,7 @@
           "Continuous performance optimization",
           "Real-time calculation of room prices through algorithms"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://www.mastripms.com/"
       },
@@ -567,6 +588,7 @@
           "Smart recommendation algorithm",
           "Complete order management process"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://www.tourbobo.com/"
       },
@@ -583,6 +605,7 @@
           "Personalized recommendation service",
           "Member data analysis system"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://www.reelax.com.tw/"
       },
@@ -599,6 +622,7 @@
           "Dynamic price adjustment suggestion",
           "Revenue report and trend prediction"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://www.mastrirms.com/"
       },
@@ -615,6 +639,7 @@
           "Responsive data stream processing",
           "High-performance data storage management"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://data-center.mastripms.com/api-doc"
       },
@@ -631,6 +656,7 @@
           "Error tracking and alarm system",
           "Development team collaboration tool"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://debugger-stage.itrd.tw/"
       },
@@ -652,6 +678,7 @@
           "Real-time lucky draw result preview",
           "Extend to other event/press conference check-in system"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://grandchecksubicbay-check-in.dunqian.tw"
       },
@@ -665,6 +692,7 @@
           "Arduino hardware integration development",
           "Smart office automation system"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://drive.google.com/file/d/1_VR6I9wrjty69nQ_xJBeV2jfitccAEDd/view?usp=sharing"
       },
@@ -681,6 +709,7 @@
           "Responsive web design",
           "Employee welfare information integration"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://dq-ewc-line-app.vercel.app/"
       },
@@ -696,6 +725,7 @@
           "Profit sharing calculation mechanism",
           "24x7 customer service technical support"
         ],
+        "pictures": [],
         "link": null,
         "demo": null
       },
@@ -711,6 +741,7 @@
           "Automated accounting processing",
           "Real-time payment status tracking"
         ],
+        "pictures": [],
         "link": null,
         "demo": null
       },
@@ -726,6 +757,7 @@
           "Bank SMS automatic review",
           "Offline device detection mechanism"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/SmsHelperCustom",
         "demo": null
       },
@@ -741,6 +773,7 @@
           "Interactive teaching interface",
           "Hardware integration development"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/CPR",
         "demo": null
       },
@@ -756,6 +789,7 @@
           "Clean API design",
           "Full TypeScript development"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/node-cache",
         "demo": null
       },
@@ -771,6 +805,7 @@
           "Real-time inventory tracking",
           "Complete backend management system"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/Inventory_System",
         "demo": null
       },
@@ -786,6 +821,7 @@
           "Firebase cloud deployment",
           "Traditional frontend technology implementation"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://deep-sea.web.app/"
       },
@@ -801,6 +837,7 @@
           "Blazor Server architecture",
           "Azure cloud deployment"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/DeepSea",
         "demo": "http://deep-sea.azurewebsites.net/"
       },
@@ -816,6 +853,7 @@
           "Firebase data synchronization",
           "Discord voting mechanism"
         ],
+        "pictures": [],
         "link": "https://github.com/ivan88217/deepSeaDCBot",
         "demo": null
       },
@@ -831,6 +869,7 @@
           "Vercel cloud deployment",
           "Responsive web design"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://veteran-driver-alpha.vercel.app/"
       },
@@ -846,6 +885,7 @@
           "Vercel cloud deployment",
           "Enhanced user experience"
         ],
+        "pictures": [],
         "link": null,
         "demo": "https://veteran-driver-svelte.vercel.app/"
       }

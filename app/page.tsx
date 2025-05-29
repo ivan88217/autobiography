@@ -16,6 +16,7 @@ interface Project {
   description: string
   technologies: string[]
   highlights: string[]
+  pictures: string[]
   link: string | null
   demo: string | null
 }
