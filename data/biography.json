@@ -240,7 +240,7 @@
           "持續優化效能和用戶體驗",
           "透過演算法實時計算房價"
         ],
-        "pictures": [],
+        "pictures": ["/images/projects/mastripms.png"],
         "link": null,
         "demo": "https://www.mastripms.com/"
       },
@@ -256,7 +256,7 @@
           "智能推薦演算法",
           "完整的訂單管理流程"
         ],
-        "pictures": [],
+        "pictures": ["/images/projects/tourbobo.png"],
         "link": null,
         "demo": "https://www.tourbobo.com/"
       },
@@ -273,7 +273,7 @@
           "個人化推薦服務",
           "會員數據分析系統"
         ],
-        "pictures": [],
+        "pictures": ["/images/projects/reelax.png"],
         "link": null,
         "demo": "https://www.reelax.com.tw/"
       },
@@ -290,7 +290,7 @@
           "動態價格調整建議",
           "收益報表與趨勢預測"
         ],
-        "pictures": [],
+        "pictures": ["/images/projects/rms.png"],
         "link": null,
         "demo": "https://www.mastrirms.com/"
       },
@@ -324,7 +324,7 @@
           "錯誤追蹤與警報系統",
           "開發團隊協作工具"
         ],
-        "pictures": [],
+        "pictures": ["/images/projects/debugger.png"],
         "link": null,
         "demo": "https://debugger-stage.itrd.tw/"
       },
@@ -572,7 +572,7 @@
           "Continuous performance optimization",
           "Real-time calculation of room prices through algorithms"
         ],
-        "pictures": [],
+        "pictures": ["/images/projects/iot.png"],
         "link": null,
         "demo": "https://www.mastripms.com/"
       },
@@ -588,7 +588,7 @@
           "Smart recommendation algorithm",
           "Complete order management process"
         ],
-        "pictures": [],
+        "pictures": ["/images/projects/tourbobo.png"],
         "link": null,
         "demo": "https://www.tourbobo.com/"
       },
@@ -605,7 +605,7 @@
           "Personalized recommendation service",
           "Member data analysis system"
         ],
-        "pictures": [],
+        "pictures": ["/images/projects/reelax.png"],
         "link": null,
         "demo": "https://www.reelax.com.tw/"
       },
@@ -622,7 +622,7 @@
           "Dynamic price adjustment suggestion",
           "Revenue report and trend prediction"
         ],
-        "pictures": [],
+        "pictures": ["/images/projects/rms.png"],
         "link": null,
         "demo": "https://www.mastrirms.com/"
       },
@@ -656,7 +656,7 @@
           "Error tracking and alarm system",
           "Development team collaboration tool"
         ],
-        "pictures": [],
+        "pictures": ["/images/projects/debugger.png"],
         "link": null,
         "demo": "https://debugger-stage.itrd.tw/"
       },
