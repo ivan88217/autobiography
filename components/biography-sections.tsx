@@ -62,6 +62,7 @@ interface Education {
   degree: string;
   period: string;
   description: string;
+  pictures: string[];
 }
 
 interface Project {
@@ -333,6 +334,27 @@ export function BiographySections({
                 <p className="text-muted-foreground leading-relaxed whitespace-pre-line">
                   {edu.description}
                 </p>
+                {edu.pictures && edu.pictures.length > 0 && (
+                  <div className="grid grid-cols-2 gap-2">
+                    {edu.pictures.map((picture, pictureIndex) => (
+                      <div key={pictureIndex} className="overflow-hidden rounded-lg border border-border/50">
+                        <NextImage
+                          src={picture}
+                          alt={`${edu.school} - ${language === "zh" ? "圖片" : "Image"} ${pictureIndex + 1}`}
+                          width={200}
+                          height={128}
+                          className="w-full h-20 sm:h-24 md:h-32 object-cover hover:scale-105 transition-transform duration-200 cursor-pointer"
+                          onClick={() =>
+                            setSelectedImage({
+                              src: picture,
+                              alt: `${edu.school} - ${language === "zh" ? "圖片" : "Image"} ${pictureIndex + 1}`,
+                            })
+                          }
+                        />
+                      </div>
+                    ))}
+                  </div>
+                )}
               </div>
             ))}
           </div>
