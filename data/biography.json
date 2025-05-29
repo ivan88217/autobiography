@@ -897,27 +897,31 @@
         "school": "國立台中科技大學",
         "degree": "學士 - 資訊工程系",
         "period": "2014年9月 - 2018年6月",
-        "description": ""
+        "description": "",
+        "pictures": ["/images/education/nutc.jpg"]
       },
       {
         "school": "國立台中高級工業職業學校",
         "degree": "資訊科",
         "period": "2011年9月 - 2014年6月",
-        "description": ""
+        "description": "",
+        "pictures": []
       }
     ],
     "en": [
       {
         "school": "National Taichung University of Science and Technology",
-        "degree": "Bachelor of Science - Information Engineering",
+        "degree": "Bachelor of Science - Department of Computer Science and Information Engineering",
         "period": "Sep 2014 - Jun 2018",
-        "description": ""
+        "description": "",
+        "pictures": ["/images/education/nutc.jpg"]
       },
       {
         "school": "National Taichung Industrial Vocational High School",
         "degree": "Information Science",
         "period": "Sep 2011 - Jun 2014",
-        "description": ""
+        "description": "",
+        "pictures": []
       }
     ]
   },
