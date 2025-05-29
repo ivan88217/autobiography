@@ -692,7 +692,7 @@
           "Arduino hardware integration development",
           "Smart office automation system"
         ],
-        "pictures": [],
+        "pictures": ["/images/projects/iot.png"],
         "link": null,
         "demo": "https://drive.google.com/file/d/1_VR6I9wrjty69nQ_xJBeV2jfitccAEDd/view?usp=sharing"
       },
