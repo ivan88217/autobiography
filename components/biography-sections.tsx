@@ -16,6 +16,7 @@ import {
   Award,
   Calendar,
   Shield,
+  Image,
 } from "lucide-react";
 import {
   Card,
@@ -26,6 +27,7 @@ import {
 } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import NextImage from "next/image";
 
 interface PersonalInfo {
   name: string;
@@ -62,6 +64,7 @@ interface Project {
   description: string;
   technologies: string[];
   highlights: string[];
+  pictures: string[];
   link: string | null;
   demo: string | null;
 }
@@ -114,6 +117,8 @@ export function BiographySections({
       certifications: "專業證照",
       techStack: "技術棧",
       highlights: "專案亮點",
+      pictures: "專案圖片",
+      noPictures: "暫無圖片",
       viewCode: "查看程式碼",
       viewDemo: "查看展示",
       viewCertificate: "查看證照",
@@ -131,6 +136,8 @@ export function BiographySections({
       certifications: "Certifications",
       techStack: "Tech Stack",
       highlights: "Highlights",
+      pictures: "Project Images",
+      noPictures: "No Images Available",
       viewCode: "View Code",
       viewDemo: "View Demo",
       viewCertificate: "View Certificate",
@@ -453,6 +460,44 @@ export function BiographySections({
                     ))}
                   </div>
                 </div>
+
+                {/* Project Images */}
+                {project.pictures && project.pictures.length > 0 ? (
+                  <div className="space-y-2">
+                    <h5 className="text-sm font-medium flex items-center gap-2">
+                      <Image className="h-4 w-4" />
+                      {sectionTitles[language].pictures}
+                    </h5>
+                    <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+                      {project.pictures.map((picture, pictureIndex) => (
+                        <div key={pictureIndex} className="overflow-hidden rounded-lg border border-border/50">
+                          <NextImage
+                            src={picture}
+                            alt={`${project.name} - 圖片 ${pictureIndex + 1}`}
+                            width={200}
+                            height={128}
+                            className="w-full h-20 sm:h-24 md:h-32 object-cover hover:scale-105 transition-transform duration-200 cursor-pointer"
+                            onClick={() => window.open(picture, '_blank')}
+                            onError={(e) => {
+                              const target = e.target as HTMLImageElement;
+                              target.style.display = 'none';
+                            }}
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                ) : (
+                  <div className="space-y-2">
+                    <h5 className="text-sm font-medium flex items-center gap-2 text-muted-foreground">
+                      <Image className="h-4 w-4" />
+                      {sectionTitles[language].pictures}
+                    </h5>
+                    <p className="text-xs text-muted-foreground italic">
+                      {sectionTitles[language].noPictures}
+                    </p>
+                  </div>
+                )}
 
                 {/* Highlights */}
                 <div className="space-y-2">
