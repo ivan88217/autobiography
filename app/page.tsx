@@ -28,7 +28,8 @@ interface Certification {
   expiryDate: string | null
   credentialId: string
   description: string
-  link: string
+  link: string | null
+  pictures: string[]
 }
 
 export default function Home() {
