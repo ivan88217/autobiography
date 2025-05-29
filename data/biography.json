@@ -229,7 +229,8 @@
           "整合多種支付方式",
           "實現即時庫存/房價管理",
           "與Channel Manager 整合，及時同步房價/庫存",
-          "持續優化效能和用戶體驗"
+          "持續優化效能和用戶體驗",
+          "透過演算法實時計算房價"
         ],
         "link": null,
         "demo": "https://www.mastripms.com/"
@@ -246,7 +247,8 @@
           "Integrated multiple payment methods",
           "Real-time inventory management",
           "Integrate with Channel Manager, sync room price/inventory in real-time",
-          "Continuous performance optimization"
+          "Continuous performance optimization",
+          "Real-time calculation of room prices through algorithms"
         ],
         "link": null,
         "demo": "https://www.mastripms.com/"
