@@ -88,7 +88,8 @@ interface Certification {
   expiryDate: string | null;
   credentialId: string;
   description: string;
-  link: string;
+  link: string | null;
+  pictures: string[];
 }
 
 interface BiographySectionsProps {
@@ -439,9 +440,10 @@ export function BiographySections({
                   </div>
 
                   {/* 查看證照連結 */}
-                  <div className="pt-2">
-                    <Button variant="outline" size="sm" asChild>
-                      <a
+                  {cert.link && (
+                    <div className="pt-2">
+                      <Button variant="outline" size="sm" asChild>
+                        <a
                         href={cert.link}
                         target="_blank"
                         rel="noopener noreferrer"
@@ -449,8 +451,26 @@ export function BiographySections({
                         <ExternalLink className="h-4 w-4 mr-1" />
                         {sectionTitles[language].viewCertificate}
                       </a>
-                    </Button>
-                  </div>
+                      </Button>
+                    </div>
+                  )}
+                  {cert.pictures && cert.pictures.length > 0 && cert.pictures.map((picture, pictureIndex) => (
+                    <div key={pictureIndex} className="overflow-hidden rounded-lg border border-border/50">
+                      <NextImage
+                        src={picture}
+                        alt={`${cert.name} - 圖片 ${pictureIndex + 1}`}
+                        width={200}
+                        height={128}
+                        className="w-full h-20 sm:h-24 md:h-32 object-cover hover:scale-105 transition-transform duration-200 cursor-pointer"
+                        onClick={() =>
+                          setSelectedImage({
+                            src: picture,
+                            alt: `${cert.name} - 圖片 ${pictureIndex + 1}`,
+                          })
+                        }
+                        />
+                      </div>
+                    ))}
                 </CardContent>
               </Card>
             ))}
