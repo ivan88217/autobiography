@@ -116,10 +116,7 @@ export default function Home() {
       <footer className="border-t bg-background">
         <div className="container mx-auto px-4 py-6 text-center text-sm text-muted-foreground">
           <p>
-            {language === 'zh' 
-              ? '© 2024 個人自傳網站。使用 Next.js 和 Tailwind CSS 建立。'
-              : '© 2024 Personal Biography Website. Built with Next.js and Tailwind CSS.'
-            }
+            {language === 'zh' ? '© 2025 施易男' : '© 2025 Ivan Shih'}
           </p>
         </div>
       </footer>
