@@ -18,6 +18,7 @@ import {
   Calendar,
   Shield,
   Image,
+  Linkedin,
 } from "lucide-react";
 import {
   Card,
@@ -43,6 +44,8 @@ interface PersonalInfo {
   phone: string;
   location: string;
   github: string;
+  linkedin: string;
+  image: string;
   summary: string;
 }
 
@@ -205,13 +208,22 @@ export function BiographySections({
       <div className="space-y-12">
         {/* Personal Info Section */}
         <section className="text-center space-y-4 section-bg">
-          <div className="space-y-2">
-            <h1 className="text-4xl font-bold gradient-text">
-              {allPersonalData[language].name}
-            </h1>
-            <p className="text-lg text-muted-foreground">
-              {allPersonalData[language === "zh" ? "en" : "zh"].name}
-            </p>
+          <div className="flex items-center gap-6 justify-center">
+            <NextImage
+              src={personal.image}
+              alt={personal.name}
+              width={100}
+              height={100}
+              className="rounded-full"
+            />
+            <div>
+              <h1 className="text-4xl font-bold gradient-text">
+                {allPersonalData[language].name}
+              </h1>
+              <p className="text-lg text-muted-foreground">
+                {allPersonalData[language === "zh" ? "en" : "zh"].name}
+              </p>
+            </div>
           </div>
           <h2 className="text-xl text-primary font-medium">{personal.title}</h2>
 
@@ -237,6 +249,17 @@ export function BiographySections({
                 className="hover:text-primary transition-colors"
               >
                 GitHub/ivan88217
+              </a>
+            </div>
+            <div className="flex items-center gap-1">
+              <Linkedin className="h-4 w-4" />
+              <a
+                href={personal.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="hover:text-primary transition-colors"
+              >
+                LinkedIn/ivan88217
               </a>
             </div>
           </div>
