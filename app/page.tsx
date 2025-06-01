@@ -80,7 +80,7 @@ export default function Home() {
   }
 
   // 如果未通過驗證，顯示密碼輸入頁面
-  if (!isAuthenticated) {
+  if (!isAuthenticated && false) {
     return <PasswordProtection onCorrectPassword={handleCorrectPassword} />
   }
 
