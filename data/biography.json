@@ -252,6 +252,24 @@
         "demo": "https://www.mastripms.com/"
       },
       {
+        "name": "團隊內訓及技術分享",
+        "period": "2022年9月 - 現在",
+        "status": "active",
+        "description": "負責團隊內訓及技術分享，包括PHP、Laravel、Vue.js、MySQL、Redis、Docker、GCP、K8S等技術的教學和分享。",
+        "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
+        "highlights": [],
+        "pictures": [
+          "/images/projects/pms-pricing-xmind.png",
+          "/images/projects/pms-pricing-flow.png",
+          "/images/projects/pms-pricing-uml.png",
+          "/images/projects/pms-pricing-full-uml.png",
+          "/images/projects/user-level.png",
+          "/images/projects/copilot.png"
+        ],
+        "link": null,
+        "demo": null
+      },
+      {
         "name": "Tourbobo - OTA訂房系統",
         "period": "2022年9月 - 現在",
         "status": "active",
@@ -360,7 +378,9 @@
           "春酒禮品抽獎結果即時預覽",
           "衍伸至各活動/記者會報到系統"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/sob-ck.png"
+        ],
         "link": null,
         "demo": "https://grandchecksubicbay-check-in.dunqian.tw"
       },
@@ -407,7 +427,9 @@
           "利潤分成計算機制",
           "24x7客服技術支援"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/coco.png"
+        ],
         "link": null,
         "demo": null
       },
@@ -455,7 +477,10 @@
           "互動式教學介面",
           "硬體整合開發"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/cpr-1.png",
+          "/images/projects/cpr-2.png"
+        ],
         "link": "https://github.com/ivan88217/CPR",
         "demo": null
       },
@@ -523,7 +548,9 @@
           "Blazor Server架構",
           "Azure雲端部署"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/deep-sea-v2.png"
+        ],
         "link": "https://github.com/ivan88217/DeepSea",
         "demo": "http://deep-sea.azurewebsites.net/"
       },
@@ -596,6 +623,24 @@
         ],
         "link": null,
         "demo": "https://www.mastripms.com/"
+      },
+      {
+        "name": "Team Training and Technical Sharing",
+        "period": "Sep 2022 - Present",
+        "status": "active", 
+        "description": "Responsible for team training and technical sharing, including teaching and sharing knowledge of PHP, Laravel, Vue.js, MySQL, Redis, Docker, GCP, K8S and other technologies.",
+        "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
+        "highlights": [],
+        "pictures": [
+          "/images/projects/pms-pricing-xmind.png",
+          "/images/projects/pms-pricing-flow.png",
+          "/images/projects/pms-pricing-uml.png",
+          "/images/projects/pms-pricing-full-uml.png",
+          "/images/projects/user-level.png",
+          "/images/projects/copilot.png"
+        ],
+        "link": null,
+        "demo": null
       },
       {
         "name": "Tourbobo - OTA Booking System",
@@ -706,7 +751,9 @@
           "Real-time lucky draw result preview",
           "Extend to other event/press conference check-in system"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/sob-ck.png"
+        ],
         "link": null,
         "demo": "https://grandchecksubicbay-check-in.dunqian.tw"
       },
@@ -753,7 +800,9 @@
           "Profit sharing calculation mechanism",
           "24x7 customer service technical support"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/coco.png"
+        ],
         "link": null,
         "demo": null
       },
@@ -801,7 +850,10 @@
           "Interactive teaching interface",
           "Hardware integration development"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/cpr-1.png",
+          "/images/projects/cpr-2.png"
+        ],
         "link": "https://github.com/ivan88217/CPR",
         "demo": null
       },
@@ -869,7 +921,9 @@
           "Blazor Server architecture",
           "Azure cloud deployment"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/deep-sea-v2.png"
+        ],
         "link": "https://github.com/ivan88217/DeepSea",
         "demo": "http://deep-sea.azurewebsites.net/"
       },

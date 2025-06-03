@@ -1,6 +1,9 @@
 "use client"
 
 import { useState, useEffect } from "react"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
+import { FileText } from "lucide-react"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { LanguageToggle } from "@/components/language-toggle"
 import { BiographySections } from "@/components/biography-sections"
@@ -89,12 +92,20 @@ export default function Home() {
     <div className="min-h-screen bg-background">
       {/* Header with controls */}
       <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-14 items-center justify-end gap-2 px-4">
-          <LanguageToggle 
-            currentLanguage={language} 
-            onLanguageChange={handleLanguageChange} 
-          />
-          <ThemeToggle />
+        <div className="container flex h-14 items-center justify-between px-4">
+          <Link href="/portfolio">
+            <Button variant="outline" size="sm" className="gap-2">
+              <FileText className="h-4 w-4" />
+              {language === 'zh' ? '作品集 PDF 版本' : 'Portfolio PDF Version'}
+            </Button>
+          </Link>
+          <div className="flex items-center gap-2">
+            <LanguageToggle 
+              currentLanguage={language} 
+              onLanguageChange={handleLanguageChange} 
+            />
+            <ThemeToggle />
+          </div>
         </div>
       </header>
 
