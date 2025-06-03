@@ -345,7 +345,10 @@
           "響應式數據流處理",
           "高效能資料倉儲管理"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/data-center-1.png",
+          "/images/projects/data-center-2.png"
+        ],
         "link": null,
         "demo": "https://data-center.mastripms.com/api-doc"
       },
@@ -733,7 +736,10 @@
           "Responsive data stream processing",
           "High-performance data storage management"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/data-center-1.png",
+          "/images/projects/data-center-2.png"
+        ],
         "link": null,
         "demo": "https://data-center.mastripms.com/api-doc"
       },
