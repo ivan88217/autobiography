@@ -329,7 +329,10 @@
           "動態價格調整建議",
           "收益報表與趨勢預測"
         ],
-        "pictures": ["/images/projects/rms.png"],
+        "pictures": [
+          "/images/projects/rms.png",
+          "/images/projects/rms-2.png"
+        ],
         "link": null,
         "demo": "https://www.mastrirms.com/"
       },
@@ -724,7 +727,10 @@
           "Dynamic price adjustment suggestion",
           "Revenue report and trend prediction"
         ],
-        "pictures": ["/images/projects/rms.png"],
+        "pictures": [
+          "/images/projects/rms.png",
+          "/images/projects/rms-2.png"
+        ],
         "link": null,
         "demo": "https://www.mastrirms.com/"
       },
