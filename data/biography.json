@@ -411,7 +411,10 @@
           "Arduino硬體整合開發",
           "智慧辦公室自動化系統"
         ],
-        "pictures": ["/images/projects/iot.png"],
+        "pictures": [
+          "/images/projects/iot.png",
+          "/images/projects/iot-line.png"
+        ],
         "link": null,
         "demo": "https://drive.google.com/file/d/1_VR6I9wrjty69nQ_xJBeV2jfitccAEDd/view?usp=sharing"
       },
@@ -803,7 +806,10 @@
           "Arduino hardware integration development",
           "Smart office automation system"
         ],
-        "pictures": ["/images/projects/iot.png"],
+        "pictures": [
+          "/images/projects/iot.png",
+          "/images/projects/iot-line.png"
+        ],
         "link": null,
         "demo": "https://drive.google.com/file/d/1_VR6I9wrjty69nQ_xJBeV2jfitccAEDd/view?usp=sharing"
       },
