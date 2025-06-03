@@ -244,7 +244,10 @@
           "持續優化效能和用戶體驗",
           "透過演算法實時計算房價"
         ],
-        "pictures": ["/images/projects/mastripms.png"],
+        "pictures": [
+          "/images/projects/mastripms.png",
+          "/images/projects/pms-contract-price.png"
+        ],
         "link": null,
         "demo": "https://www.mastripms.com/"
       },
@@ -328,7 +331,14 @@
           "錯誤追蹤與警報系統",
           "開發團隊協作工具"
         ],
-        "pictures": ["/images/projects/debugger.png"],
+        "pictures": [
+          "/images/projects/debugger.png",
+          "/images/projects/debugger-feature-toggle.png",
+          "/images/projects/debugger-occupy.png",
+          "/images/projects/debugger-payment.png",
+          "/images/projects/debugger-point.png",
+          "/images/projects/debugger-whiteboard.png"
+        ],
         "link": null,
         "demo": "https://debugger-stage.itrd.tw/"
       },
@@ -493,7 +503,11 @@
           "Firebase雲端部署",
           "傳統前端技術實現"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/deep-sea-v1.png",
+          "/images/projects/deep-sea-v1-attend.png",
+          "/images/projects/deep-sea-v1-war.png"
+        ],
         "link": null,
         "demo": "https://deep-sea.web.app/"
       },
@@ -576,7 +590,10 @@
           "Continuous performance optimization",
           "Real-time calculation of room prices through algorithms"
         ],
-        "pictures": ["/images/projects/iot.png"],
+        "pictures": [
+          "/images/projects/mastripms.png",
+          "/images/projects/pms-contract-price.png"
+        ],
         "link": null,
         "demo": "https://www.mastripms.com/"
       },
@@ -660,7 +677,14 @@
           "Error tracking and alarm system",
           "Development team collaboration tool"
         ],
-        "pictures": ["/images/projects/debugger.png"],
+        "pictures": [
+          "/images/projects/debugger.png",
+          "/images/projects/debugger-feature-toggle.png",
+          "/images/projects/debugger-occupy.png",
+          "/images/projects/debugger-payment.png",
+          "/images/projects/debugger-point.png",
+          "/images/projects/debugger-whiteboard.png"
+        ],
         "link": null,
         "demo": "https://debugger-stage.itrd.tw/"
       },
@@ -825,7 +849,11 @@
           "Firebase cloud deployment",
           "Traditional frontend technology implementation"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/deep-sea-v1.png",
+          "/images/projects/deep-sea-v1-attend.png",
+          "/images/projects/deep-sea-v1-war.png"
+        ],
         "link": null,
         "demo": "https://deep-sea.web.app/"
       },
