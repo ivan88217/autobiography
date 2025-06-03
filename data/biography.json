@@ -1110,6 +1110,16 @@
         "description": "1.物聯網基礎架構概論 2.物聯網系統與應用",
         "link": "",
         "pictures": ["/images/certifications/ipass.jpg"]
+      },
+      {
+        "name": "電腦硬體裝修乙級",
+        "issuer": "勞動部",
+        "date": "2014年12月",
+        "expiryDate": null,
+        "credentialId": "120-047228",
+        "description": "",
+        "link": "",
+        "pictures": ["/images/certifications/hardware-front.png", "/images/certifications/hardware-back.png"]
       }
     ],
     "en": [

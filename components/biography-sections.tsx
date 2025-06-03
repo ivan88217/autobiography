@@ -506,7 +506,7 @@ export function BiographySections({
                         alt={`${cert.name} - 圖片 ${pictureIndex + 1}`}
                         width={200}
                         height={128}
-                        className="w-full h-20 sm:h-24 md:h-32 object-cover hover:scale-105 transition-transform duration-200 cursor-pointer"
+                        className="w-full h-fit object-cover hover:scale-105 transition-transform duration-200 cursor-pointer"
                         onClick={() =>
                           setSelectedImage({
                             src: picture,
