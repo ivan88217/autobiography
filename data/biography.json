@@ -258,7 +258,16 @@
         "status": "active",
         "description": "負責團隊內訓及技術分享，包括PHP、Laravel、Vue.js、MySQL、Redis、Docker、GCP、K8S等技術的教學和分享。",
         "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
-        "highlights": [],
+        "highlights": [
+          "定期舉辦技術分享會議",
+          "撰寫技術文件與教學指南",
+          "建立團隊知識庫系統",
+          "指導新進人員技術培訓",
+          "分享最新技術趨勢與應用",
+          "制定團隊開發規範與最佳實踐",
+          "協助解決技術難題",
+          "促進團隊技術交流與成長"
+        ],
         "pictures": [
           "/images/projects/pms-pricing-xmind.png",
           "/images/projects/pms-pricing-flow.png",
@@ -276,9 +285,18 @@
         "status": "active",
         "description": "協助DevOps相關工作，包括CI/CD、Docker、K8S、Logstash、Elasticsearch、Kibana等技術的應用和實現。",
         "technologies": ["Docker", "K8S", "CI/CD", "Logstash", "Elasticsearch", "Kibana"],
-        "highlights": [],
+        "highlights": [
+          "建立CI/CD流程",
+          "實現自動化部署",
+          "監控系統運行狀態",
+          "優化部署流程",
+          "實現日誌分析"
+        ],
         "pictures": [
-          "/images/projects/elk.png"
+          "/images/projects/elk.png",
+          "/images/projects/argocd-1.png",
+          "/images/projects/argocd-2.png",
+          "/images/projects/grafana-1.png"
         ],
         "link": null,
         "demo": null
@@ -656,7 +674,16 @@
         "status": "active", 
         "description": "Responsible for team training and technical sharing, including teaching and sharing knowledge of PHP, Laravel, Vue.js, MySQL, Redis, Docker, GCP, K8S and other technologies.",
         "technologies": ["PHP", "Laravel", "Vue.js", "MySQL", "Redis", "Docker", "GCP", "K8S"],
-        "highlights": [],
+        "highlights": [
+          "Regular technical sharing sessions",
+          "Writing technical documentation and tutorials",
+          "Building team knowledge base system",
+          "Training new team members",
+          "Sharing latest technology trends",
+          "Establishing team development standards and best practices",
+          "Helping solve technical challenges",
+          "Promoting team technical exchange and growth"
+        ],
         "pictures": [
           "/images/projects/pms-pricing-xmind.png",
           "/images/projects/pms-pricing-flow.png",
@@ -670,13 +697,22 @@
       },
       {
         "name": "DevOps",
-        "period": "2022年9月 - 現在",
+        "period": "Sep 2022 - Present",
         "status": "active",
         "description": "Help with DevOps-related work, including CI/CD, Docker, K8S, Logstash, Elasticsearch, Kibana, etc.",
         "technologies": ["Docker", "K8S", "CI/CD", "Logstash", "Elasticsearch", "Kibana"],
-        "highlights": [],
+        "highlights": [
+          "Establish CI/CD pipeline",
+          "Implement automated deployment",
+          "Monitor system operation status",
+          "Optimize deployment process",
+          "Implement log analysis"
+        ],
         "pictures": [
-          "/images/projects/elk.png"
+          "/images/projects/elk.png",
+          "/images/projects/argocd-1.png",
+          "/images/projects/argocd-2.png",
+          "/images/projects/grafana-1.png"
         ],
         "link": null,
         "demo": null
