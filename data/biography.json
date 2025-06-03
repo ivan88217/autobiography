@@ -270,6 +270,19 @@
         "demo": null
       },
       {
+        "name": "DevOps",
+        "period": "2022年9月 - 現在",
+        "status": "active",
+        "description": "協助DevOps相關工作，包括CI/CD、Docker、K8S、Logstash、Elasticsearch、Kibana等技術的應用和實現。",
+        "technologies": ["Docker", "K8S", "CI/CD", "Logstash", "Elasticsearch", "Kibana"],
+        "highlights": [],
+        "pictures": [
+          "/images/projects/elk.png"
+        ],
+        "link": null,
+        "demo": null
+      },
+      {
         "name": "Tourbobo - OTA訂房系統",
         "period": "2022年9月 - 現在",
         "status": "active",
@@ -411,7 +424,9 @@
           "響應式網頁設計",
           "員工福利資訊整合"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/ewc.png"
+        ],
         "link": null,
         "demo": "https://dq-ewc-line-app.vercel.app/"
       },
@@ -643,6 +658,19 @@
         "demo": null
       },
       {
+        "name": "DevOps",
+        "period": "2022年9月 - 現在",
+        "status": "active",
+        "description": "Help with DevOps-related work, including CI/CD, Docker, K8S, Logstash, Elasticsearch, Kibana, etc.",
+        "technologies": ["Docker", "K8S", "CI/CD", "Logstash", "Elasticsearch", "Kibana"],
+        "highlights": [],
+        "pictures": [
+          "/images/projects/elk.png"
+        ],
+        "link": null,
+        "demo": null
+      },
+      {
         "name": "Tourbobo - OTA Booking System",
         "period": "Sep 2022 - Present",
         "status": "active",
@@ -784,7 +812,9 @@
           "Responsive web design",
           "Employee welfare information integration"
         ],
-        "pictures": [],
+        "pictures": [
+          "/images/projects/ewc.png"
+        ],
         "link": null,
         "demo": "https://dq-ewc-line-app.vercel.app/"
       },
