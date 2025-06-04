@@ -259,3 +259,112 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+/* 列印專用樣式 */
+@media print {
+  @page {
+    margin: 0.5in;
+    size: A4;
+  }
+  
+  body {
+    background: white !important;
+    color: black !important;
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+  
+  .print\:hidden {
+    display: none !important;
+  }
+  
+  .print\:shadow-none {
+    box-shadow: none !important;
+  }
+  
+  .print\:rounded-none {
+    border-radius: 0 !important;
+  }
+  
+  .print\:text-3xl {
+    font-size: 1.875rem !important;
+    line-height: 2.25rem !important;
+  }
+  
+  .print\:text-lg {
+    font-size: 1.125rem !important;
+    line-height: 1.75rem !important;
+  }
+  
+  .print\:text-sm {
+    font-size: 0.875rem !important;
+    line-height: 1.25rem !important;
+  }
+  
+  .print\:text-xs {
+    font-size: 0.75rem !important;
+    line-height: 1rem !important;
+  }
+  
+  .print\:text-\[10px\] {
+    font-size: 10px !important;
+  }
+  
+  .print\:text-\[8px\] {
+    font-size: 8px !important;
+  }
+  
+  .print\:mb-6 {
+    margin-bottom: 1.5rem !important;
+  }
+  
+  .print\:mb-4 {
+    margin-bottom: 1rem !important;
+  }
+  
+  .print\:mb-2 {
+    margin-bottom: 0.5rem !important;
+  }
+  
+  .print\:gap-3 {
+    gap: 0.75rem !important;
+  }
+  
+  .print\:gap-1 {
+    gap: 0.25rem !important;
+  }
+  
+  .print\:space-y-3 > * + * {
+    margin-top: 0.75rem !important;
+  }
+  
+  .print\:p-6 {
+    padding: 1.5rem !important;
+  }
+  
+  .print\:p-2 {
+    padding: 0.5rem !important;
+  }
+  
+  .print\:h-3 {
+    height: 0.75rem !important;
+  }
+  
+  .print\:w-3 {
+    width: 0.75rem !important;
+  }
+  
+  .print\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr)) !important;
+  }
+  
+  /* 確保文字在列印時是黑色 */
+  .print\:text-black {
+    color: black !important;
+  }
+  
+  /* 避免頁面分割問題 */
+  .print\:break-inside-avoid {
+    break-inside: avoid !important;
+  }
+}
