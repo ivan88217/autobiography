@@ -616,38 +616,6 @@
         "pictures": [],
         "link": "https://github.com/ivan88217/deepSeaDCBot",
         "demo": null
-      },
-      {
-        "name": "老ㄙ機 v1 - 成人影片網站",
-        "period": "2021年",
-        "status": "abandoned", 
-        "description": "使用網路爬蟲技術獲取影片資訊與資源的成人影片網站，使用React.js與Next.js開發，部署於Vercel平台。",
-        "technologies": ["React.js", "Next.js", "Web Crawler", "CSS", "Vercel"],
-        "highlights": [
-          "網路爬蟲數據收集",
-          "React前端框架實現",
-          "Vercel雲端部署",
-          "響應式網頁設計"
-        ],
-        "pictures": [],
-        "link": null,
-        "demo": "https://veteran-driver-alpha.vercel.app/"
-      },
-      {
-        "name": "老ㄙ機 v2 - 成人影片網站",
-        "period": "2022年",
-        "status": "abandoned",
-        "description": "使用Svelte.js與SvelteKit重新開發的第二版本，保留原有功能的同時提供更好的使用者體驗。",
-        "technologies": ["Svelte.js", "SvelteKit", "Web Crawler", "CSS", "Vercel"],
-        "highlights": [
-          "網路爬蟲數據收集",
-          "Svelte前端框架實現",
-          "Vercel雲端部署",
-          "優化使用者體驗"
-        ],
-        "pictures": [],
-        "link": null,
-        "demo": "https://veteran-driver-svelte.vercel.app/"
       }
     ],
     "en": [
@@ -1036,38 +1004,6 @@
         "pictures": [],
         "link": "https://github.com/ivan88217/deepSeaDCBot",
         "demo": null
-      },
-      {
-        "name": "Veteran Driver v1 - Adult Video Site",
-        "period": "2021",
-        "status": "abandoned",
-        "description": "Adult video site using web crawler to get video info and resources, built with React.js and Next.js, deployed on Vercel.",
-        "technologies": ["React.js", "Next.js", "Web Crawler", "CSS", "Vercel"],
-        "highlights": [
-          "Web crawler data collection", 
-          "React frontend implementation",
-          "Vercel cloud deployment",
-          "Responsive web design"
-        ],
-        "pictures": [],
-        "link": null,
-        "demo": "https://veteran-driver-alpha.vercel.app/"
-      },
-      {
-        "name": "Veteran Driver v2 - Adult Video Site", 
-        "period": "2022",
-        "status": "abandoned",
-        "description": "Second version of adult video site rebuilt with Svelte.js and SvelteKit, maintaining same functionality while providing better user experience.",
-        "technologies": ["Svelte.js", "SvelteKit", "Web Crawler", "CSS", "Vercel"],
-        "highlights": [
-          "Web crawler data collection",
-          "Svelte frontend implementation", 
-          "Vercel cloud deployment",
-          "Enhanced user experience"
-        ],
-        "pictures": [],
-        "link": null,
-        "demo": "https://veteran-driver-svelte.vercel.app/"
       }
     ]
   },
