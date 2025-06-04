@@ -37,6 +37,62 @@ import {
 } from "@/components/ui/dialog";
 import NextImage from "next/image";
 
+// 列印專用樣式
+const printStyles = `
+  @media print {
+    /* 確保圖片在列印時不會被裁掉 */
+    .print-image {
+      object-fit: contain !important;
+      max-height: 300px !important;
+      width: 100% !important;
+      height: auto !important;
+      transform: none !important;
+      transition: none !important;
+      page-break-inside: avoid;
+    }
+    
+    /* 圖片容器在列印時的樣式 */
+    .print-image-container {
+      overflow: visible !important;
+      page-break-inside: avoid;
+      margin-bottom: 0.5rem;
+    }
+    
+    /* 移除懸停效果 */
+    .print-no-hover {
+      transform: none !important;
+      transition: none !important;
+    }
+    
+    /* 確保卡片內容不會被分頁截斷 */
+    .print-avoid-break {
+      page-break-inside: avoid;
+      break-inside: avoid;
+    }
+    
+    /* 專案圖片在列印時的特殊處理 */
+    .print-project-image {
+      object-fit: contain !important;
+      max-height: 200px !important;
+      width: 100% !important;
+      height: auto !important;
+    }
+    
+    /* 證照圖片在列印時的處理 */
+    .print-cert-image {
+      object-fit: contain !important;
+      max-height: 250px !important;
+      width: 100% !important;
+      height: auto !important;
+    }
+  }
+  
+  @page {
+    margin: 1cm;
+    size: A4;
+  }
+`;
+
 interface PersonalInfo {
   name: string;
   title: string;
@@ -205,9 +261,12 @@ export function BiographySections({
 
   return (
     <>
+      {/* 注入列印專用樣式 */}
+      <style dangerouslySetInnerHTML={{ __html: printStyles }} />
+      
       <div className="space-y-12">
         {/* Personal Info Section */}
-        <section className="text-center space-y-4 section-bg">
+        <section className="text-center space-y-4 section-bg print-avoid-break">
           <div className="flex items-center gap-6 justify-center">
             <NextImage
               src={personal.image}
@@ -276,7 +335,7 @@ export function BiographySections({
         </section>
 
         {/* Experience Section */}
-        <section className="space-y-6 section-bg">
+        <section className="space-y-6 section-bg print-avoid-break">
           <h3 className="text-2xl font-semibold flex items-center gap-2 gradient-text">
             <Building className="h-6 w-6 text-primary" />
             {sectionTitles[language].experience}
@@ -292,7 +351,7 @@ export function BiographySections({
               return (
                 <div
                   key={index}
-                  className={`border-l-4 border-primary pl-6 space-y-2 p-4 rounded-r-lg bg-card card-hover ${
+                  className={`border-l-4 border-primary pl-6 space-y-2 p-4 rounded-r-lg bg-card card-hover print-avoid-break ${
                     !isCurrent ? "opacity-60" : ""
                   }`}
                 >
@@ -336,7 +395,7 @@ export function BiographySections({
         </section>
 
         {/* Education Section */}
-        <section className="space-y-6 section-bg">
+        <section className="space-y-6 section-bg print-avoid-break">
           <h3 className="text-2xl font-semibold flex items-center gap-2 gradient-text">
             <GraduationCap className="h-6 w-6 text-primary" />
             {sectionTitles[language].education}
@@ -345,7 +404,7 @@ export function BiographySections({
             {education.map((edu, index) => (
               <div
                 key={index}
-                className="border-l-4 border-primary pl-6 space-y-2 p-4 rounded-r-lg bg-card card-hover"
+                className="border-l-4 border-primary pl-6 space-y-2 p-4 rounded-r-lg bg-card card-hover print-avoid-break"
               >
                 <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
                   <h4 className="text-lg font-medium">{edu.degree}</h4>
@@ -358,15 +417,15 @@ export function BiographySections({
                   {edu.description}
                 </p>
                 {edu.pictures && edu.pictures.length > 0 && (
-                  <div className="grid grid-cols-2 gap-2">
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-2 print-avoid-break">
                     {edu.pictures.map((picture, pictureIndex) => (
-                      <div key={pictureIndex} className="overflow-hidden rounded-lg border border-border/50">
+                      <div key={pictureIndex} className="print-image-container overflow-hidden rounded-lg border border-border/50">
                         <NextImage
                           src={picture}
                           alt={`${edu.school} - ${language === "zh" ? "圖片" : "Image"} ${pictureIndex + 1}`}
                           width={200}
                           height={128}
-                          className="w-full h-20 sm:h-24 md:h-32 object-cover hover:scale-105 transition-transform duration-200 cursor-pointer"
+                          className="w-full h-fit object-cover hover:scale-105 transition-transform duration-200 cursor-pointer print-image print-no-hover"
                           onClick={() =>
                             setSelectedImage({
                               src: picture,
@@ -384,7 +443,7 @@ export function BiographySections({
         </section>
 
         {/* Skills Section */}
-        <section className="space-y-6 section-bg">
+        <section className="space-y-6 section-bg print-avoid-break">
           <h3 className="text-2xl font-semibold flex items-center gap-2 gradient-text">
             <Code className="h-6 w-6 text-primary" />
             {sectionTitles[language].skills}
@@ -393,7 +452,7 @@ export function BiographySections({
             {skills.map((skillGroup, index) => (
               <div
                 key={index}
-                className="space-y-3 p-4 bg-card rounded-lg card-hover border border-border/50"
+                className="space-y-3 p-4 bg-card rounded-lg card-hover border border-border/50 print-avoid-break"
               >
                 <h4 className="text-lg font-medium text-primary">
                   {skillGroup.category}
@@ -414,7 +473,7 @@ export function BiographySections({
         </section>
 
         {/* Certifications Section */}
-        <section className="space-y-6 section-bg">
+        <section className="space-y-6 section-bg print-avoid-break">
           <h3 className="text-2xl font-semibold flex items-center gap-2 gradient-text">
             <Award className="h-6 w-6 text-primary" />
             {sectionTitles[language].certifications}
@@ -423,7 +482,7 @@ export function BiographySections({
             {certifications.map((cert, index) => (
               <Card
                 key={index}
-                className="h-full card-hover border-2 border-border/50"
+                className="h-full card-hover border-2 border-border/50 print-avoid-break"
               >
                 <CardHeader>
                   <div className="flex items-start gap-3">
@@ -499,23 +558,27 @@ export function BiographySections({
                       </Button>
                     </div>
                   )}
-                  {cert.pictures && cert.pictures.length > 0 && cert.pictures.map((picture, pictureIndex) => (
-                    <div key={pictureIndex} className="overflow-hidden rounded-lg border border-border/50">
-                      <NextImage
-                        src={picture}
-                        alt={`${cert.name} - 圖片 ${pictureIndex + 1}`}
-                        width={200}
-                        height={128}
-                        className="w-full h-fit object-cover hover:scale-105 transition-transform duration-200 cursor-pointer"
-                        onClick={() =>
-                          setSelectedImage({
-                            src: picture,
-                            alt: `${cert.name} - 圖片 ${pictureIndex + 1}`,
-                          })
-                        }
-                        />
-                      </div>
-                    ))}
+                  {cert.pictures && cert.pictures.length > 0 && (
+                    <div className="space-y-2 print-avoid-break">
+                      {cert.pictures.map((picture, pictureIndex) => (
+                        <div key={pictureIndex} className="print-image-container overflow-hidden rounded-lg border border-border/50">
+                          <NextImage
+                            src={picture}
+                            alt={`${cert.name} - 圖片 ${pictureIndex + 1}`}
+                            width={200}
+                            height={128}
+                            className="w-full h-fit object-cover hover:scale-105 transition-transform duration-200 cursor-pointer print-cert-image print-no-hover"
+                            onClick={() =>
+                              setSelectedImage({
+                                src: picture,
+                                alt: `${cert.name} - 圖片 ${pictureIndex + 1}`,
+                              })
+                            }
+                          />
+                        </div>
+                      ))}
+                    </div>
+                  )}
                 </CardContent>
               </Card>
             ))}
@@ -523,7 +586,7 @@ export function BiographySections({
         </section>
 
         {/* Projects Section */}
-        <section className="space-y-6 section-bg">
+        <section className="space-y-6 section-bg print-avoid-break">
           <h3 className="text-2xl font-semibold flex items-center gap-2 gradient-text">
             <FolderOpen className="h-6 w-6 text-primary" />
             {sectionTitles[language].projects}
@@ -532,7 +595,7 @@ export function BiographySections({
             {projects.map((project, index) => (
               <Card
                 key={index}
-                className="h-full card-hover border-2 border-border/50"
+                className="h-full card-hover border-2 border-border/50 print-avoid-break"
               >
                 <CardHeader>
                   <div className="flex flex-col gap-3">
@@ -571,23 +634,23 @@ export function BiographySections({
 
                   {/* Project Images */}
                   {project.pictures && project.pictures.length > 0 ? (
-                    <div className="space-y-2">
+                    <div className="space-y-2 print-avoid-break">
                       <h5 className="text-sm font-medium flex items-center gap-2">
                         <Image className="h-4 w-4" />
                         {sectionTitles[language].pictures}
                       </h5>
-                      <div className="grid grid-cols-2 md:grid-cols-3 gap-2">
+                      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
                         {project.pictures.map((picture, pictureIndex) => (
                           <div
                             key={pictureIndex}
-                            className="overflow-hidden rounded-lg border border-border/50"
+                            className="print-image-container overflow-hidden rounded-lg border border-border/50"
                           >
                             <NextImage
                               src={picture}
                               alt={`${project.name} - 圖片 ${pictureIndex + 1}`}
                               width={200}
                               height={128}
-                              className="w-full h-20 sm:h-24 md:h-32 object-cover hover:scale-105 transition-transform duration-200 cursor-pointer"
+                              className="w-full h-20 sm:h-24 md:h-32 object-cover hover:scale-105 transition-transform duration-200 cursor-pointer print-project-image print-no-hover"
                               onClick={() =>
                                 setSelectedImage({
                                   src: picture,
