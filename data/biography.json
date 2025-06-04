@@ -1158,7 +1158,7 @@
       {
         "name": "電腦硬體裝修乙級",
         "issuer": "勞動部",
-        "date": "2014年12月",
+        "date": "2017年3月",
         "expiryDate": null,
         "credentialId": "120-047228",
         "description": "",
@@ -1176,6 +1176,16 @@
         "description": "1. IoT Basic Architecture Overview 2. IoT System and Application",
         "link": "",
         "pictures": ["/images/certifications/ipass.jpg"]
+      },
+      {
+        "name": "Computer Maintenance Technician - Class B",
+        "issuer": "Ministry of Labor",
+        "date": "Mar 2017",
+        "expiryDate": null,
+        "credentialId": "120-047228",
+        "description": "",
+        "link": "",
+        "pictures": ["/images/certifications/hardware-front.png", "/images/certifications/hardware-back.png"]
       }
     ]
   }
